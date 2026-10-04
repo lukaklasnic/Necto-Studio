@@ -1,9 +1,9 @@
 cmake_minimum_required(VERSION 3.19)
 
 if (${TOOLCHAIN_LANGUAGE} MATCHES "MikroC")
-    project(New_FT800_Demo LANGUAGES MikroC)
+    project(FT800_Demo LANGUAGES MikroC)
 else()
-    project(New_FT800_Demo LANGUAGES C ASM)
+    project(FT800_Demo LANGUAGES C ASM)
 endif()
 
 include(mikroeUtils)
@@ -12,35 +12,35 @@ if (${MIKROSDK_TYPE} STREQUAL "legacy")
     legacy_cmake_path()
 endif()
 
-set(PROJECT_TYPE "mikrosdk" CACHE STRING "" FORCE)
+set(PROJECT_TYPE "standard" CACHE STRING "" FORCE)
 
-add_executable(New_FT800_Demo
+add_executable(FT800_Demo
 main.c
+ft800_demo.c
+ft800_demo.h
+tmr.c
+tmr.h
 )
 
-############################ New_FT800_Demo GENERATED CODE START ###########################
+############################ FT800_Demo GENERATED CODE START ###########################
 find_package(MikroSDK.Ft800 REQUIRED)
-target_link_libraries(New_FT800_Demo PUBLIC MikroSDK.Ft800)
-find_package(MikroSDK.Driver.GPIO.Out REQUIRED)
-target_link_libraries(New_FT800_Demo PUBLIC MikroSDK.Driver.GPIO.Out)
+target_link_libraries(FT800_Demo PUBLIC MikroSDK.Ft800)
 find_package(MikroSDK.Driver REQUIRED)
-target_link_libraries(New_FT800_Demo PUBLIC MikroSDK.Driver)
-find_package(MikroSDK.Conversions REQUIRED)
-target_link_libraries(New_FT800_Demo PUBLIC MikroSDK.Conversions)
+target_link_libraries(FT800_Demo PUBLIC MikroSDK.Driver)
 find_package(MikroSDK.Board REQUIRED)
-target_link_libraries(New_FT800_Demo PUBLIC MikroSDK.Board)
+target_link_libraries(FT800_Demo PUBLIC MikroSDK.Board)
 find_package(MikroC.Core REQUIRED)
-target_link_libraries(New_FT800_Demo PUBLIC MikroC.Core)
-############################ New_FT800_Demo GENERATED CODE END ###########################
+target_link_libraries(FT800_Demo PUBLIC MikroC.Core)
+############################ FT800_Demo GENERATED CODE END ###########################
 find_package(MikroC.Core REQUIRED)
-target_link_libraries(New_FT800_Demo
+target_link_libraries(FT800_Demo
     PUBLIC
         MikroC.Core
 )
 
 if (${MIKROSDK_TYPE} STREQUAL "legacy")
     find_package(MikroC.System REQUIRED)
-    target_link_libraries(New_FT800_Demo
+    target_link_libraries(FT800_Demo
         PUBLIC
             MikroC.System
     )

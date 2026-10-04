@@ -1,0 +1,283 @@
+{
+    "build_system": {
+        "settings": {
+            "CORE_NAME": "M7",
+            "HAS_MIKROBUS": "true",
+            "MCU_NAME": "STM32F745VG",
+            "_MSDK_BOARD_NAME_": "BOARD_UNI_DS_V8",
+            "_MSDK_DIP_SOCKET_TYPE_": "",
+            "_MSDK_ETH_PHY_CHIP_": "NULL",
+            "_MSDK_HAL_LOW_LEVEL_TARGET_": "mikroe",
+            "_MSDK_MCU_CARD_NAME_": "MCU_CARD_31_FOR_STM32",
+            "_MSDK_PACKAGE_ID_": "LQFP",
+            "_MSDK_PACKAGE_NAME_": "Tx",
+            "_MSDK_PACKAGE_PIN_COUNT_": "100",
+            "_MSDK_SHIELD_": "",
+            "_MSDK_TFT_BOARD_": "TFT_BOARD_4_RESISTIVE",
+            "_MSDK_TFT_HEIGHT_": "272",
+            "_MSDK_TFT_TP_": "__TP_STMPE811__",
+            "_MSDK_TFT_TP_CONTROLLER_": "_DEFAULT_",
+            "_MSDK_TFT_TP_ROTATE_": "TP_ROTATE_180",
+            "_MSDK_TFT_TYPE_": "__TFT_RESISTIVE__",
+            "_MSDK_TFT_WIDTH_": "480",
+            "board": null,
+            "compiler": null,
+            "device": null,
+            "display": null,
+            "flatten_level": "FLATTEN_ME_LEVEL_HIGH",
+            "standard_output": "Application output"
+        },
+        "steps": {
+            "build": [
+                {
+                    "arguments": "--build all",
+                    "command": "cmake",
+                    "type": "cmake"
+                }
+            ],
+            "clean": [
+                {
+                    "arguments": "--clean",
+                    "command": "cmake",
+                    "type": "cmake"
+                }
+            ]
+        },
+        "uid": "cmake"
+    },
+    "enabled_in_view": true,
+    "from_productivity_hub": false,
+    "is_default": false,
+    "is_valid": true,
+    "name": "UNI DS v8",
+    "prog": {
+        "auto_start_local_gdb": true,
+        "control_port": "53556",
+        "has_erase": true,
+        "ip_address": "127.0.0.1",
+        "mcu_name": "STM32F745VG",
+        "port": "53557",
+        "selected_device": {
+            "communicationType": "usb",
+            "deviceName": "CODEGRIP-OneMcu",
+            "hwTokens": "01-01-01-02-01-0b-04-01-01-05-01-01-06-01-01",
+            "ip": "181.145.229.96",
+            "linkPortConfig": 0,
+            "linkPortDebug": 0,
+            "pid": 6436,
+            "port": 0,
+            "portConfig": 0,
+            "registeredDevice": -1,
+            "serialNumber": "ME2025075300007",
+            "signalStrength": 0,
+            "sslEnable": false
+        },
+        "selected_options": {
+            "Connection": {
+                "group": "Target Connection",
+                "value": "Under reset"
+            },
+            "Erase Type": {
+                "group": "Target Operation",
+                "value": "Erase and unlock"
+            },
+            "Halt on Connect": {
+                "group": "Target Connection",
+                "value": "Enabled"
+            },
+            "Protocol": {
+                "group": "Target Connection",
+                "value": "SWD"
+            },
+            "Reset Type": {
+                "group": "Target Connection",
+                "value": "Hardware reset"
+            },
+            "Speed": {
+                "group": "Target Connection",
+                "value": "4 MHz"
+            },
+            "Verify Type": {
+                "group": "Target Operation",
+                "value": "CRC"
+            },
+            "Verify after Write": {
+                "group": "Target Operation",
+                "value": "Enabled"
+            }
+        },
+        "uid": "codegrip"
+    },
+    "sdk": {
+        "flatten_level": "FLATTEN_ME_LEVEL_HIGH",
+        "icon": "images/mikrosdk.png",
+        "installed": 1,
+        "legacy": 0,
+        "name": "mikroSDK",
+        "sdk_development_kit": 0,
+        "standard_output": "Application output",
+        "uid": "mikrosdk_v2182",
+        "version": "2.18.2"
+    },
+    "target": {
+        "board": {
+            "mikrobus_count": 5,
+            "uid": "UNI_DS_V8"
+        },
+        "display": {
+            "height": 272,
+            "uid": "TFT_BOARD_4_RESISTIVE",
+            "width": 480
+        },
+        "mcu": {
+            "compiler_flags": "",
+            "flash": 1048576,
+            "isDebugSupported": true,
+            "linker_flags": "",
+            "ram": 327680,
+            "settings": {
+                "clock": 216,
+                "config_registers": [
+                    {
+                        "fields": [
+                            {
+                                "key": "HSION",
+                                "value": "00000001"
+                            },
+                            {
+                                "key": "HSEON",
+                                "value": "00000000"
+                            },
+                            {
+                                "key": "HSEBYP",
+                                "value": "00000000"
+                            },
+                            {
+                                "key": "CSSON",
+                                "value": "00000000"
+                            },
+                            {
+                                "key": "PLLON",
+                                "value": "01000000"
+                            },
+                            {
+                                "key": "PLLI2SON",
+                                "value": "00000000"
+                            },
+                            {
+                                "key": "HSITRIM",
+                                "value": "00000080"
+                            },
+                            {
+                                "key": "PLLSAION",
+                                "value": "00000000"
+                            }
+                        ],
+                        "key": "RCC_CR"
+                    },
+                    {
+                        "fields": [
+                            {
+                                "key": "PLLM",
+                                "value": "00000010"
+                            },
+                            {
+                                "key": "PLLN",
+                                "value": "00006c00"
+                            },
+                            {
+                                "key": "PLLP",
+                                "value": "00000000"
+                            },
+                            {
+                                "key": "PLLSRC",
+                                "value": "00000000"
+                            },
+                            {
+                                "key": "PLLQ",
+                                "value": "09000000"
+                            }
+                        ],
+                        "key": "RCC_PLLCFGR"
+                    },
+                    {
+                        "fields": [
+                            {
+                                "key": "SW",
+                                "value": "00000002"
+                            },
+                            {
+                                "key": "HPRE",
+                                "value": "00000000"
+                            },
+                            {
+                                "key": "PPRE1",
+                                "value": "00001400"
+                            },
+                            {
+                                "key": "PPRE2",
+                                "value": "00008000"
+                            },
+                            {
+                                "key": "RTCPRE",
+                                "value": "00000000"
+                            },
+                            {
+                                "key": "MCO1",
+                                "value": "00600000"
+                            },
+                            {
+                                "key": "I2SSRC",
+                                "value": "00000000"
+                            },
+                            {
+                                "key": "MCO1PRE",
+                                "value": "00000000"
+                            },
+                            {
+                                "key": "MCO2PRE",
+                                "value": "00000000"
+                            },
+                            {
+                                "key": "MCO2",
+                                "value": "00000000"
+                            }
+                        ],
+                        "key": "RCC_CFGR"
+                    },
+                    {
+                        "fields": [
+                            {
+                                "key": "VRANGE",
+                                "value": "00000003"
+                            }
+                        ],
+                        "key": "SVRANGE"
+                    }
+                ],
+                "core": null,
+                "delay_src_path": null,
+                "mcu": "STM32F745VG",
+                "name": null,
+                "scheme": "Default"
+            },
+            "uid": "MCU_CARD_31_FOR_STM32_STM32F745VG"
+        }
+    },
+    "toolchain": {
+        "c_compiler": "bin/arm-none-eabi-gcc",
+        "clangd_config": "",
+        "core_path": "ARM/gcc_clang",
+        "cxx_compiler": "bin/arm-none-eabi-g++",
+        "gdb": "bin/arm-none-eabi-gdb",
+        "mcu_support": "mcu.support.memcu",
+        "name": "GCC for ARM",
+        "options": {
+            "debugger": "lldb/bin/lldb-dap"
+        },
+        "path": "gcc/arm/gcc-arm-none-eabi",
+        "uid": "gcc_arm_none_eabi",
+        "version": "14.2"
+    },
+    "uid": "df90735e-6214-4b88-94e9-98561050f70b"
+}

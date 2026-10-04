@@ -1,0 +1,2491 @@
+{
+	"entries" : 
+	[
+		{
+			"name" : "BUILD_LVGL_FROM_NECTO",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "TRUE"
+		},
+		{
+			"name" : "CMAKE_ADDR2LINE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "C:/Users/klasn/AppData/Local/MIKROE/NECTOStudio7/packages/compilers/gcc/arm/gcc-arm-none-eabi/bin/arm-none-eabi-addr2line.exe"
+		},
+		{
+			"name" : "CMAKE_AR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "C:/Users/klasn/AppData/Local/MIKROE/NECTOStudio7/packages/compilers/gcc/arm/gcc-arm-none-eabi/bin/arm-none-eabi-ar.exe"
+		},
+		{
+			"name" : "CMAKE_ASM_COMPILER",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "C:/Users/klasn/AppData/Local/MIKROE/NECTOStudio7/packages/compilers/gcc/arm/gcc-arm-none-eabi/bin/arm-none-eabi-gcc.exe"
+		},
+		{
+			"name" : "CMAKE_ASM_COMPILER_AR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "C:/Users/klasn/AppData/Local/MIKROE/NECTOStudio7/packages/compilers/gcc/arm/gcc-arm-none-eabi/bin/arm-none-eabi-gcc-ar.exe"
+		},
+		{
+			"name" : "CMAKE_ASM_COMPILER_RANLIB",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "C:/Users/klasn/AppData/Local/MIKROE/NECTOStudio7/packages/compilers/gcc/arm/gcc-arm-none-eabi/bin/arm-none-eabi-gcc-ranlib.exe"
+		},
+		{
+			"name" : "CMAKE_ASM_COMPILER_WORKS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "1"
+		},
+		{
+			"name" : "CMAKE_ASM_FLAGS",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the ASM compiler during all build types."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_ASM_FLAGS_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "-g"
+		},
+		{
+			"name" : "CMAKE_ASM_FLAGS_MINSIZEREL",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "-Os -DNDEBUG"
+		},
+		{
+			"name" : "CMAKE_ASM_FLAGS_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "-O3 -DNDEBUG"
+		},
+		{
+			"name" : "CMAKE_ASM_FLAGS_RELWITHDEBINFO",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "-O2 -g -DNDEBUG"
+		},
+		{
+			"name" : "CMAKE_BUILD_TYPE",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "Debug"
+		},
+		{
+			"name" : "CMAKE_CACHEFILE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "This is the directory where this CMakeCache.txt was created"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "c:/Users/klasn/FT800_Demo/build-UNI DS v8"
+		},
+		{
+			"name" : "CMAKE_CACHE_MAJOR_VERSION",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Major version of cmake used to create the current loaded cache"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "3"
+		},
+		{
+			"name" : "CMAKE_CACHE_MINOR_VERSION",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Minor version of cmake used to create the current loaded cache"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "30"
+		},
+		{
+			"name" : "CMAKE_CACHE_PATCH_VERSION",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Patch version of cmake used to create the current loaded cache"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "5"
+		},
+		{
+			"name" : "CMAKE_COMMAND",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "C:/Users/klasn/AppData/Local/MIKROE/NECTOStudio7/packages/CMake/bin/cmake.exe"
+		},
+		{
+			"name" : "CMAKE_CPACK_COMMAND",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "C:/Users/klasn/AppData/Local/MIKROE/NECTOStudio7/packages/CMake/bin/cpack.exe"
+		},
+		{
+			"name" : "CMAKE_CTEST_COMMAND",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "C:/Users/klasn/AppData/Local/MIKROE/NECTOStudio7/packages/CMake/bin/ctest.exe"
+		},
+		{
+			"name" : "CMAKE_CXX_COMPILER",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "C:/Users/klasn/AppData/Local/MIKROE/NECTOStudio7/packages/compilers/gcc/arm/gcc-arm-none-eabi/bin/arm-none-eabi-g++.exe"
+		},
+		{
+			"name" : "CMAKE_C_COMPILER",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "C:/Users/klasn/AppData/Local/MIKROE/NECTOStudio7/packages/compilers/gcc/arm/gcc-arm-none-eabi/bin/arm-none-eabi-gcc.exe"
+		},
+		{
+			"name" : "CMAKE_C_COMPILER_AR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "C:/Users/klasn/AppData/Local/MIKROE/NECTOStudio7/packages/compilers/gcc/arm/gcc-arm-none-eabi/bin/arm-none-eabi-gcc-ar.exe"
+		},
+		{
+			"name" : "CMAKE_C_COMPILER_RANLIB",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "C:/Users/klasn/AppData/Local/MIKROE/NECTOStudio7/packages/compilers/gcc/arm/gcc-arm-none-eabi/bin/arm-none-eabi-gcc-ranlib.exe"
+		},
+		{
+			"name" : "CMAKE_C_FLAGS",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the C compiler during all build types."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_C_FLAGS_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "-g"
+		},
+		{
+			"name" : "CMAKE_C_FLAGS_MINSIZEREL",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "-Os -DNDEBUG"
+		},
+		{
+			"name" : "CMAKE_C_FLAGS_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "-O3 -DNDEBUG"
+		},
+		{
+			"name" : "CMAKE_C_FLAGS_RELWITHDEBINFO",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "-O2 -g -DNDEBUG"
+		},
+		{
+			"name" : "CMAKE_DLLTOOL",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "C:/msys64/ucrt64/bin/dlltool.exe"
+		},
+		{
+			"name" : "CMAKE_EDIT_COMMAND",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "C:/Users/klasn/AppData/Local/MIKROE/NECTOStudio7/packages/CMake/bin/cmake-gui.exe"
+		},
+		{
+			"name" : "CMAKE_EXECUTABLE_FORMAT",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "ELF"
+		},
+		{
+			"name" : "CMAKE_EXE_LINKER_FLAGS",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during all build types."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_EXE_LINKER_FLAGS_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during DEBUG builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_EXE_LINKER_FLAGS_MINSIZEREL",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during MINSIZEREL builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_EXE_LINKER_FLAGS_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during RELEASE builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during RELWITHDEBINFO builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_EXPORT_COMPILE_COMMANDS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "1"
+		},
+		{
+			"name" : "CMAKE_EXTRA_GENERATOR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Name of external makefile project generator."
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_FIND_PACKAGE_REDIRECTS_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "C:/Users/klasn/FT800_Demo/build-UNI DS v8/CMakeFiles/pkgRedirects"
+		},
+		{
+			"name" : "CMAKE_GENERATOR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "Ninja"
+		},
+		{
+			"name" : "CMAKE_GENERATOR_INSTANCE",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Generator instance identifier."
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_GENERATOR_PLATFORM",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Name of generator platform."
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_GENERATOR_TOOLSET",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Name of generator toolset."
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_HOME_DIRECTORY",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "C:/Users/klasn/FT800_Demo"
+		},
+		{
+			"name" : "CMAKE_INSTALL_BINDIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "bin"
+		},
+		{
+			"name" : "CMAKE_INSTALL_DATADIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Read-only architecture-independent data (DATAROOTDIR)"
+				}
+			],
+			"type" : "PATH",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_INSTALL_DATAROOTDIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "share"
+		},
+		{
+			"name" : "CMAKE_INSTALL_DOCDIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Documentation root (DATAROOTDIR/doc/PROJECT_NAME)"
+				}
+			],
+			"type" : "PATH",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_INSTALL_INCLUDEDIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "include"
+		},
+		{
+			"name" : "CMAKE_INSTALL_INFODIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Info documentation (DATAROOTDIR/info)"
+				}
+			],
+			"type" : "PATH",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_INSTALL_LIBDIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "lib"
+		},
+		{
+			"name" : "CMAKE_INSTALL_LIBEXECDIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "libexec"
+		},
+		{
+			"name" : "CMAKE_INSTALL_LOCALEDIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Locale-dependent data (DATAROOTDIR/locale)"
+				}
+			],
+			"type" : "PATH",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_INSTALL_LOCALSTATEDIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "var"
+		},
+		{
+			"name" : "CMAKE_INSTALL_MANDIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Man documentation (DATAROOTDIR/man)"
+				}
+			],
+			"type" : "PATH",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_INSTALL_OLDINCLUDEDIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "/usr/include"
+		},
+		{
+			"name" : "CMAKE_INSTALL_PREFIX",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "C:/Users/klasn/FT800_Demo/install"
+		},
+		{
+			"name" : "CMAKE_INSTALL_RUNSTATEDIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Run-time variable data (LOCALSTATEDIR/run)"
+				}
+			],
+			"type" : "PATH",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_INSTALL_SBINDIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "sbin"
+		},
+		{
+			"name" : "CMAKE_INSTALL_SHAREDSTATEDIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "com"
+		},
+		{
+			"name" : "CMAKE_INSTALL_SYSCONFDIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "etc"
+		},
+		{
+			"name" : "CMAKE_LINKER",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "C:/Users/klasn/AppData/Local/MIKROE/NECTOStudio7/packages/compilers/gcc/arm/gcc-arm-none-eabi/bin/arm-none-eabi-ld.exe"
+		},
+		{
+			"name" : "CMAKE_MAKE_PROGRAM",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "C:/MikroElektronika/MikroElektronika/NECTOStudio/bin/ninja.exe"
+		},
+		{
+			"name" : "CMAKE_MODULE_LINKER_FLAGS",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during the creation of modules during all build types."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_MODULE_LINKER_FLAGS_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during the creation of modules during DEBUG builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_MODULE_LINKER_FLAGS_MINSIZEREL",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during the creation of modules during MINSIZEREL builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_MODULE_LINKER_FLAGS_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during the creation of modules during RELEASE builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during the creation of modules during RELWITHDEBINFO builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_NM",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "C:/Users/klasn/AppData/Local/MIKROE/NECTOStudio7/packages/compilers/gcc/arm/gcc-arm-none-eabi/bin/arm-none-eabi-nm.exe"
+		},
+		{
+			"name" : "CMAKE_NUMBER_OF_MAKEFILES",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "number of local generators"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "1"
+		},
+		{
+			"name" : "CMAKE_OBJCOPY",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "C:/Users/klasn/AppData/Local/MIKROE/NECTOStudio7/packages/compilers/gcc/arm/gcc-arm-none-eabi/bin/arm-none-eabi-objcopy.exe"
+		},
+		{
+			"name" : "CMAKE_OBJDUMP",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "C:/Users/klasn/AppData/Local/MIKROE/NECTOStudio7/packages/compilers/gcc/arm/gcc-arm-none-eabi/bin/arm-none-eabi-objdump.exe"
+		},
+		{
+			"name" : "CMAKE_PLATFORM_INFO_INITIALIZED",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "1"
+		},
+		{
+			"name" : "CMAKE_PREFIX_PATH",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "C:/Users/klasn/FT800_Demo/install"
+		},
+		{
+			"name" : "CMAKE_PROJECT_DESCRIPTION",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_PROJECT_HOMEPAGE_URL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_PROJECT_NAME",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "FT800_Demo"
+		},
+		{
+			"name" : "CMAKE_RANLIB",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "C:/Users/klasn/AppData/Local/MIKROE/NECTOStudio7/packages/compilers/gcc/arm/gcc-arm-none-eabi/bin/arm-none-eabi-ranlib.exe"
+		},
+		{
+			"name" : "CMAKE_READELF",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "C:/Users/klasn/AppData/Local/MIKROE/NECTOStudio7/packages/compilers/gcc/arm/gcc-arm-none-eabi/bin/arm-none-eabi-readelf.exe"
+		},
+		{
+			"name" : "CMAKE_ROOT",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "C:/Users/klasn/AppData/Local/MIKROE/NECTOStudio7/packages/CMake/share/cmake-3.30"
+		},
+		{
+			"name" : "CMAKE_SHARED_LINKER_FLAGS",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during the creation of shared libraries during all build types."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_SHARED_LINKER_FLAGS_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during the creation of shared libraries during DEBUG builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_SHARED_LINKER_FLAGS_MINSIZEREL",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during the creation of shared libraries during MINSIZEREL builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_SHARED_LINKER_FLAGS_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during the creation of shared libraries during RELEASE builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_SHARED_LINKER_FLAGS_RELWITHDEBINFO",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during the creation of shared libraries during RELWITHDEBINFO builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_SKIP_INSTALL_RPATH",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "NO"
+		},
+		{
+			"name" : "CMAKE_SKIP_RPATH",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "NO"
+		},
+		{
+			"name" : "CMAKE_STATIC_LINKER_FLAGS",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during the creation of static libraries during all build types."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_STATIC_LINKER_FLAGS_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during the creation of static libraries during DEBUG builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_STATIC_LINKER_FLAGS_MINSIZEREL",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during the creation of static libraries during MINSIZEREL builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_STATIC_LINKER_FLAGS_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during the creation of static libraries during RELEASE builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during the creation of static libraries during RELWITHDEBINFO builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_STRIP",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "C:/Users/klasn/AppData/Local/MIKROE/NECTOStudio7/packages/compilers/gcc/arm/gcc-arm-none-eabi/bin/arm-none-eabi-strip.exe"
+		},
+		{
+			"name" : "CMAKE_TAPI",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "CMAKE_TAPI-NOTFOUND"
+		},
+		{
+			"name" : "CMAKE_TOOLCHAIN_FILE",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "C:/Users/klasn/FT800_Demo/build-UNI DS v8/toolchain.cmake"
+		},
+		{
+			"name" : "CMAKE_VERBOSE_MAKEFILE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "FALSE"
+		},
+		{
+			"name" : "CORE_NAME",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "M7"
+		},
+		{
+			"name" : "FLATTEN_ME",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "TRUE"
+		},
+		{
+			"name" : "FLATTEN_ME_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "FLATTEN_ME_LEVEL_HIGH"
+		},
+		{
+			"name" : "FT800_Demo_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "C:/Users/klasn/FT800_Demo/build-UNI DS v8"
+		},
+		{
+			"name" : "FT800_Demo_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "ON"
+		},
+		{
+			"name" : "FT800_Demo_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "C:/Users/klasn/FT800_Demo"
+		},
+		{
+			"name" : "HAS_MIKROBUS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "true"
+		},
+		{
+			"name" : "IS_PD_SETUP",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "FALSE"
+		},
+		{
+			"name" : "LOG_INTERFACE",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "LOG_INTERFACE_STDOUT"
+		},
+		{
+			"name" : "MCU_FLASH",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "1048576"
+		},
+		{
+			"name" : "MCU_IS_DUALCORE",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "0"
+		},
+		{
+			"name" : "MCU_NAME",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "STM32F745VG"
+		},
+		{
+			"name" : "MCU_RAM",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "327680"
+		},
+		{
+			"name" : "MIKROSDK_TYPE",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "mikrosdk"
+		},
+		{
+			"name" : "MSDK_BUILD_TFT_MODULES",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "TRUE"
+		},
+		{
+			"name" : "MikroC.Core_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "C:/Users/klasn/FT800_Demo/.meproject/setup/Debug/lib/cmake/MikroC.Core"
+		},
+		{
+			"name" : "MikroSDK.Board_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "C:/Users/klasn/FT800_Demo/.meproject/setup/Debug/lib/cmake/MikroSDK.Board"
+		},
+		{
+			"name" : "MikroSDK.Driver.ADC_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "C:/Users/klasn/FT800_Demo/.meproject/setup/Debug/lib/cmake/MikroSDK.Driver.ADC"
+		},
+		{
+			"name" : "MikroSDK.Driver.CAN_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "C:/Users/klasn/FT800_Demo/.meproject/setup/Debug/lib/cmake/MikroSDK.Driver.CAN"
+		},
+		{
+			"name" : "MikroSDK.Driver.DMA_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "C:/Users/klasn/FT800_Demo/.meproject/setup/Debug/lib/cmake/MikroSDK.Driver.DMA"
+		},
+		{
+			"name" : "MikroSDK.Driver.GPIO.In_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "C:/Users/klasn/FT800_Demo/.meproject/setup/Debug/lib/cmake/MikroSDK.Driver.GPIO.In"
+		},
+		{
+			"name" : "MikroSDK.Driver.GPIO.Out_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "C:/Users/klasn/FT800_Demo/.meproject/setup/Debug/lib/cmake/MikroSDK.Driver.GPIO.Out"
+		},
+		{
+			"name" : "MikroSDK.Driver.GPIO.Port_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "C:/Users/klasn/FT800_Demo/.meproject/setup/Debug/lib/cmake/MikroSDK.Driver.GPIO.Port"
+		},
+		{
+			"name" : "MikroSDK.Driver.I2C.Master_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "C:/Users/klasn/FT800_Demo/.meproject/setup/Debug/lib/cmake/MikroSDK.Driver.I2C.Master"
+		},
+		{
+			"name" : "MikroSDK.Driver.OneWire_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "C:/Users/klasn/FT800_Demo/.meproject/setup/Debug/lib/cmake/MikroSDK.Driver.OneWire"
+		},
+		{
+			"name" : "MikroSDK.Driver.PWM_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "C:/Users/klasn/FT800_Demo/.meproject/setup/Debug/lib/cmake/MikroSDK.Driver.PWM"
+		},
+		{
+			"name" : "MikroSDK.Driver.RTC_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "C:/Users/klasn/FT800_Demo/.meproject/setup/Debug/lib/cmake/MikroSDK.Driver.RTC"
+		},
+		{
+			"name" : "MikroSDK.Driver.SPI.Master_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "C:/Users/klasn/FT800_Demo/.meproject/setup/Debug/lib/cmake/MikroSDK.Driver.SPI.Master"
+		},
+		{
+			"name" : "MikroSDK.Driver.UART_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "C:/Users/klasn/FT800_Demo/.meproject/setup/Debug/lib/cmake/MikroSDK.Driver.UART"
+		},
+		{
+			"name" : "MikroSDK.Driver_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "C:/Users/klasn/FT800_Demo/.meproject/setup/Debug/lib/cmake/MikroSDK.Driver"
+		},
+		{
+			"name" : "MikroSDK.Ft800_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "C:/Users/klasn/FT800_Demo/.meproject/setup/Debug/lib/cmake/MikroSDK.Ft800"
+		},
+		{
+			"name" : "MikroSDK.GenericPointer_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "C:/Users/klasn/FT800_Demo/.meproject/setup/Debug/lib/cmake/MikroSDK.GenericPointer"
+		},
+		{
+			"name" : "MikroSDK.GraphicLibrary_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "C:/Users/klasn/FT800_Demo/.meproject/setup/Debug/lib/cmake/MikroSDK.GraphicLibrary"
+		},
+		{
+			"name" : "MikroSDK.Hal.ADC_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "C:/Users/klasn/FT800_Demo/.meproject/setup/Debug/lib/cmake/MikroSDK.Hal.ADC"
+		},
+		{
+			"name" : "MikroSDK.Hal.CAN_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "C:/Users/klasn/FT800_Demo/.meproject/setup/Debug/lib/cmake/MikroSDK.Hal.CAN"
+		},
+		{
+			"name" : "MikroSDK.Hal.DMA_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "C:/Users/klasn/FT800_Demo/.meproject/setup/Debug/lib/cmake/MikroSDK.Hal.DMA"
+		},
+		{
+			"name" : "MikroSDK.Hal.GPIO_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "C:/Users/klasn/FT800_Demo/.meproject/setup/Debug/lib/cmake/MikroSDK.Hal.GPIO"
+		},
+		{
+			"name" : "MikroSDK.Hal.I2C.Master_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "C:/Users/klasn/FT800_Demo/.meproject/setup/Debug/lib/cmake/MikroSDK.Hal.I2C.Master"
+		},
+		{
+			"name" : "MikroSDK.Hal.OneWire_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "C:/Users/klasn/FT800_Demo/.meproject/setup/Debug/lib/cmake/MikroSDK.Hal.OneWire"
+		},
+		{
+			"name" : "MikroSDK.Hal.PWM_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "C:/Users/klasn/FT800_Demo/.meproject/setup/Debug/lib/cmake/MikroSDK.Hal.PWM"
+		},
+		{
+			"name" : "MikroSDK.Hal.RTC_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "C:/Users/klasn/FT800_Demo/.meproject/setup/Debug/lib/cmake/MikroSDK.Hal.RTC"
+		},
+		{
+			"name" : "MikroSDK.Hal.SPI.Master_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "C:/Users/klasn/FT800_Demo/.meproject/setup/Debug/lib/cmake/MikroSDK.Hal.SPI.Master"
+		},
+		{
+			"name" : "MikroSDK.Hal.UART_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "C:/Users/klasn/FT800_Demo/.meproject/setup/Debug/lib/cmake/MikroSDK.Hal.UART"
+		},
+		{
+			"name" : "MikroSDK.HalInterface_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "C:/Users/klasn/FT800_Demo/.meproject/setup/Debug/lib/cmake/MikroSDK.HalInterface"
+		},
+		{
+			"name" : "MikroSDK.HalLowLevel.ADC_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "C:/Users/klasn/FT800_Demo/.meproject/setup/Debug/lib/cmake/MikroSDK.HalLowLevel.ADC"
+		},
+		{
+			"name" : "MikroSDK.HalLowLevel.CAN_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "C:/Users/klasn/FT800_Demo/.meproject/setup/Debug/lib/cmake/MikroSDK.HalLowLevel.CAN"
+		},
+		{
+			"name" : "MikroSDK.HalLowLevel.DMA_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "C:/Users/klasn/FT800_Demo/.meproject/setup/Debug/lib/cmake/MikroSDK.HalLowLevel.DMA"
+		},
+		{
+			"name" : "MikroSDK.HalLowLevel.GPIO_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "C:/Users/klasn/FT800_Demo/.meproject/setup/Debug/lib/cmake/MikroSDK.HalLowLevel.GPIO"
+		},
+		{
+			"name" : "MikroSDK.HalLowLevel.I2C.Master_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "C:/Users/klasn/FT800_Demo/.meproject/setup/Debug/lib/cmake/MikroSDK.HalLowLevel.I2C.Master"
+		},
+		{
+			"name" : "MikroSDK.HalLowLevel.OneWire_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "C:/Users/klasn/FT800_Demo/.meproject/setup/Debug/lib/cmake/MikroSDK.HalLowLevel.OneWire"
+		},
+		{
+			"name" : "MikroSDK.HalLowLevel.RTC_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "C:/Users/klasn/FT800_Demo/.meproject/setup/Debug/lib/cmake/MikroSDK.HalLowLevel.RTC"
+		},
+		{
+			"name" : "MikroSDK.HalLowLevel.SPI.Master_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "C:/Users/klasn/FT800_Demo/.meproject/setup/Debug/lib/cmake/MikroSDK.HalLowLevel.SPI.Master"
+		},
+		{
+			"name" : "MikroSDK.HalLowLevel.TIM_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "C:/Users/klasn/FT800_Demo/.meproject/setup/Debug/lib/cmake/MikroSDK.HalLowLevel.TIM"
+		},
+		{
+			"name" : "MikroSDK.HalLowLevel.UART_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "C:/Users/klasn/FT800_Demo/.meproject/setup/Debug/lib/cmake/MikroSDK.HalLowLevel.UART"
+		},
+		{
+			"name" : "MikroSDK.HalLowLevelCommon_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "C:/Users/klasn/FT800_Demo/.meproject/setup/Debug/lib/cmake/MikroSDK.HalLowLevelCommon"
+		},
+		{
+			"name" : "MikroSDK.HalLowLevelCore_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "C:/Users/klasn/FT800_Demo/.meproject/setup/Debug/lib/cmake/MikroSDK.HalLowLevelCore"
+		},
+		{
+			"name" : "MikroSDK.MikroBus_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "C:/Users/klasn/FT800_Demo/.meproject/setup/Debug/lib/cmake/MikroSDK.MikroBus"
+		},
+		{
+			"name" : "MikroSDK.RingBuffer_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "C:/Users/klasn/FT800_Demo/.meproject/setup/Debug/lib/cmake/MikroSDK.RingBuffer"
+		},
+		{
+			"name" : "MikroSDK.TouchPanel_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "C:/Users/klasn/FT800_Demo/.meproject/setup/Debug/lib/cmake/MikroSDK.TouchPanel"
+		},
+		{
+			"name" : "NECTO_APPLICATION_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "C:/MikroElektronika/MikroElektronika/NECTOStudio/bin"
+		},
+		{
+			"name" : "NECTO_DESIGNER_GENERATOR_PATH",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "C:/MikroElektronika/MikroElektronika/NECTOStudio/bin/vtft_generator.exe"
+		},
+		{
+			"name" : "NECTO_LVGL_VERSION",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "9.4.0"
+		},
+		{
+			"name" : "OSC",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "216"
+		},
+		{
+			"name" : "PREINIT_ROUTINE_PATH",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "C:/Users/klasn/AppData/Local/MIKROE/NECTOStudio7/packages/preinit"
+		},
+		{
+			"name" : "PROJECT_TYPE",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "standard"
+		},
+		{
+			"name" : "TEST_LIB_PATH",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "C:/Users/klasn/AppData/Local/MIKROE/NECTOStudio7/packages/unit_test_lib"
+		},
+		{
+			"name" : "TOOLCHAIN_ID",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "gcc_arm_none_eabi"
+		},
+		{
+			"name" : "TOOLCHAIN_LANGUAGE",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "GNU"
+		},
+		{
+			"name" : "_GNUInstallDirs_LAST_CMAKE_INSTALL_PREFIX",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "CMAKE_INSTALL_PREFIX during last run"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "C:/Users/klasn/FT800_Demo/install"
+		},
+		{
+			"name" : "_HAS_MIKROBUS_",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "TRUE"
+		},
+		{
+			"name" : "_MSDK_BOARD_NAME_",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "BOARD_UNI_DS_V8"
+		},
+		{
+			"name" : "_MSDK_DIP_SOCKET_TYPE_",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "_MSDK_ETH_PHY_CHIP_",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "NULL"
+		},
+		{
+			"name" : "_MSDK_HAL_LOW_LEVEL_TARGET_",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "mikroe"
+		},
+		{
+			"name" : "_MSDK_MCU_CARD_NAME_",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "MCU_CARD_31_FOR_STM32"
+		},
+		{
+			"name" : "_MSDK_PACKAGE_ID_",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "LQFP"
+		},
+		{
+			"name" : "_MSDK_PACKAGE_NAME_",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "Tx"
+		},
+		{
+			"name" : "_MSDK_PACKAGE_PIN_COUNT_",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "100"
+		},
+		{
+			"name" : "_MSDK_SHIELD_",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "_MSDK_TFT_BOARD_",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "TFT_BOARD_4_RESISTIVE"
+		},
+		{
+			"name" : "_MSDK_TFT_HEIGHT_",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "272"
+		},
+		{
+			"name" : "_MSDK_TFT_TP_",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "__TP_STMPE811__"
+		},
+		{
+			"name" : "_MSDK_TFT_TP_CONTROLLER_",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "_DEFAULT_"
+		},
+		{
+			"name" : "_MSDK_TFT_TP_ROTATE_",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "TP_ROTATE_180"
+		},
+		{
+			"name" : "_MSDK_TFT_TYPE_",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "__TFT_RESISTIVE__"
+		},
+		{
+			"name" : "_MSDK_TFT_WIDTH_",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "480"
+		},
+		{
+			"name" : "flatten_level",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "FLATTEN_ME_LEVEL_HIGH"
+		},
+		{
+			"name" : "standard_output",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "Application output"
+		}
+	],
+	"kind" : "cache",
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}
