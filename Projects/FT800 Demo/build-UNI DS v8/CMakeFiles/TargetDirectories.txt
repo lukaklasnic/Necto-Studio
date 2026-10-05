@@ -1,3 +1,3 @@
-C:/Users/klasn/FT800_Demo/build-UNI DS v8/CMakeFiles/FT800_Demo.dir
-C:/Users/klasn/FT800_Demo/build-UNI DS v8/CMakeFiles/edit_cache.dir
-C:/Users/klasn/FT800_Demo/build-UNI DS v8/CMakeFiles/rebuild_cache.dir
+D:/Dokumenti/Necto-Studio/Projects/FT800 Demo/build-UNI DS v8/CMakeFiles/FT800_Demo.dir
+D:/Dokumenti/Necto-Studio/Projects/FT800 Demo/build-UNI DS v8/CMakeFiles/edit_cache.dir
+D:/Dokumenti/Necto-Studio/Projects/FT800 Demo/build-UNI DS v8/CMakeFiles/rebuild_cache.dir

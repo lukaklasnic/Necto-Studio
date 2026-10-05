@@ -29,7 +29,7 @@
 		[
 			"CMakeLists.txt",
 			"build-UNI DS v8/toolchain.cmake",
-			"build-UNI DS v8/CMakeFiles/3.30.5/CMakeSystem.cmake",
+			"C:/Users/klasn/AppData/Local/MIKROE/NECTOStudio7/packages/CMake/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake",
 			"C:/Users/klasn/AppData/Local/MIKROE/NECTOStudio7/cmake/mikroeUtilsCommon.cmake",
 			".meproject/setup/Debug/lib/cmake/MikroSDK.Ft800/MikroSDK.Ft800Targets.cmake",
 			".meproject/setup/Debug/lib/cmake/MikroSDK.Ft800/MikroSDK.Ft800Config.cmake",
@@ -106,7 +106,7 @@
 			{
 				"command" : 2,
 				"file" : 2,
-				"line" : 6,
+				"line" : 146,
 				"parent" : 3
 			},
 			{
@@ -116,7 +116,7 @@
 			{
 				"command" : 1,
 				"file" : 1,
-				"line" : 187,
+				"line" : 59,
 				"parent" : 5
 			},
 			{
@@ -902,7 +902,7 @@
 			{
 				"command" : 10,
 				"file" : 1,
-				"line" : 185,
+				"line" : 57,
 				"parent" : 5
 			},
 			{
@@ -1162,72 +1162,72 @@
 				{
 					"backtrace" : 9,
 					"isSystem" : true,
-					"path" : "C:/Users/klasn/FT800_Demo/.meproject/setup/Debug/include/middleware/ft800"
+					"path" : "D:/Dokumenti/Necto-Studio/Projects/FT800 Demo/.meproject/setup/Debug/include/middleware/ft800"
 				},
 				{
 					"backtrace" : 9,
 					"isSystem" : true,
-					"path" : "C:/Users/klasn/FT800_Demo/.meproject/setup/Debug/include"
+					"path" : "D:/Dokumenti/Necto-Studio/Projects/FT800 Demo/.meproject/setup/Debug/include"
 				},
 				{
 					"backtrace" : 9,
 					"isSystem" : true,
-					"path" : "C:/Users/klasn/FT800_Demo/.meproject/setup/Debug/include/core"
+					"path" : "D:/Dokumenti/Necto-Studio/Projects/FT800 Demo/.meproject/setup/Debug/include/core"
 				},
 				{
 					"backtrace" : 9,
 					"isSystem" : true,
-					"path" : "C:/Users/klasn/FT800_Demo/.meproject/setup/Debug/include/core/STM32F745VG"
+					"path" : "D:/Dokumenti/Necto-Studio/Projects/FT800 Demo/.meproject/setup/Debug/include/core/STM32F745VG"
 				},
 				{
 					"backtrace" : 9,
 					"isSystem" : true,
-					"path" : "C:/Users/klasn/FT800_Demo/.meproject/setup/Debug/include/core/common/cmsis"
+					"path" : "D:/Dokumenti/Necto-Studio/Projects/FT800 Demo/.meproject/setup/Debug/include/core/common/cmsis"
 				},
 				{
 					"backtrace" : 9,
 					"isSystem" : true,
-					"path" : "C:/Users/klasn/FT800_Demo/.meproject/setup/Debug/include/api/tp"
+					"path" : "D:/Dokumenti/Necto-Studio/Projects/FT800 Demo/.meproject/setup/Debug/include/api/tp"
 				},
 				{
 					"backtrace" : 9,
 					"isSystem" : true,
-					"path" : "C:/Users/klasn/FT800_Demo/.meproject/setup/Debug/include/bsp/mikrobus"
+					"path" : "D:/Dokumenti/Necto-Studio/Projects/FT800 Demo/.meproject/setup/Debug/include/bsp/mikrobus"
 				},
 				{
 					"backtrace" : 9,
 					"isSystem" : true,
-					"path" : "C:/Users/klasn/FT800_Demo/.meproject/setup/Debug/include/board"
+					"path" : "D:/Dokumenti/Necto-Studio/Projects/FT800 Demo/.meproject/setup/Debug/include/board"
 				},
 				{
 					"backtrace" : 9,
 					"isSystem" : true,
-					"path" : "C:/Users/klasn/FT800_Demo/.meproject/setup/Debug/include/api/gl"
+					"path" : "D:/Dokumenti/Necto-Studio/Projects/FT800 Demo/.meproject/setup/Debug/include/api/gl"
 				},
 				{
 					"backtrace" : 9,
 					"isSystem" : true,
-					"path" : "C:/Users/klasn/FT800_Demo/.meproject/setup/Debug/include/drv"
+					"path" : "D:/Dokumenti/Necto-Studio/Projects/FT800 Demo/.meproject/setup/Debug/include/drv"
 				},
 				{
 					"backtrace" : 9,
 					"isSystem" : true,
-					"path" : "C:/Users/klasn/FT800_Demo/.meproject/setup/Debug/include/hal"
+					"path" : "D:/Dokumenti/Necto-Studio/Projects/FT800 Demo/.meproject/setup/Debug/include/hal"
 				},
 				{
 					"backtrace" : 9,
 					"isSystem" : true,
-					"path" : "C:/Users/klasn/FT800_Demo/.meproject/setup/Debug/include/platform"
+					"path" : "D:/Dokumenti/Necto-Studio/Projects/FT800 Demo/.meproject/setup/Debug/include/platform"
 				},
 				{
 					"backtrace" : 9,
 					"isSystem" : true,
-					"path" : "C:/Users/klasn/FT800_Demo/.meproject/setup/Debug/include/hal_ll_port"
+					"path" : "D:/Dokumenti/Necto-Studio/Projects/FT800 Demo/.meproject/setup/Debug/include/hal_ll_port"
 				},
 				{
 					"backtrace" : 9,
 					"isSystem" : true,
-					"path" : "C:/Users/klasn/FT800_Demo/.meproject/setup/Debug/include/stm32f745vgtx"
+					"path" : "D:/Dokumenti/Necto-Studio/Projects/FT800 Demo/.meproject/setup/Debug/include/stm32f745vgtx"
 				}
 			],
 			"language" : "C",
@@ -1441,72 +1441,72 @@
 				{
 					"backtrace" : 9,
 					"isSystem" : true,
-					"path" : "C:/Users/klasn/FT800_Demo/.meproject/setup/Debug/include/middleware/ft800"
+					"path" : "D:/Dokumenti/Necto-Studio/Projects/FT800 Demo/.meproject/setup/Debug/include/middleware/ft800"
 				},
 				{
 					"backtrace" : 9,
 					"isSystem" : true,
-					"path" : "C:/Users/klasn/FT800_Demo/.meproject/setup/Debug/include"
+					"path" : "D:/Dokumenti/Necto-Studio/Projects/FT800 Demo/.meproject/setup/Debug/include"
 				},
 				{
 					"backtrace" : 9,
 					"isSystem" : true,
-					"path" : "C:/Users/klasn/FT800_Demo/.meproject/setup/Debug/include/core"
+					"path" : "D:/Dokumenti/Necto-Studio/Projects/FT800 Demo/.meproject/setup/Debug/include/core"
 				},
 				{
 					"backtrace" : 9,
 					"isSystem" : true,
-					"path" : "C:/Users/klasn/FT800_Demo/.meproject/setup/Debug/include/core/STM32F745VG"
+					"path" : "D:/Dokumenti/Necto-Studio/Projects/FT800 Demo/.meproject/setup/Debug/include/core/STM32F745VG"
 				},
 				{
 					"backtrace" : 9,
 					"isSystem" : true,
-					"path" : "C:/Users/klasn/FT800_Demo/.meproject/setup/Debug/include/core/common/cmsis"
+					"path" : "D:/Dokumenti/Necto-Studio/Projects/FT800 Demo/.meproject/setup/Debug/include/core/common/cmsis"
 				},
 				{
 					"backtrace" : 9,
 					"isSystem" : true,
-					"path" : "C:/Users/klasn/FT800_Demo/.meproject/setup/Debug/include/api/tp"
+					"path" : "D:/Dokumenti/Necto-Studio/Projects/FT800 Demo/.meproject/setup/Debug/include/api/tp"
 				},
 				{
 					"backtrace" : 9,
 					"isSystem" : true,
-					"path" : "C:/Users/klasn/FT800_Demo/.meproject/setup/Debug/include/bsp/mikrobus"
+					"path" : "D:/Dokumenti/Necto-Studio/Projects/FT800 Demo/.meproject/setup/Debug/include/bsp/mikrobus"
 				},
 				{
 					"backtrace" : 9,
 					"isSystem" : true,
-					"path" : "C:/Users/klasn/FT800_Demo/.meproject/setup/Debug/include/board"
+					"path" : "D:/Dokumenti/Necto-Studio/Projects/FT800 Demo/.meproject/setup/Debug/include/board"
 				},
 				{
 					"backtrace" : 9,
 					"isSystem" : true,
-					"path" : "C:/Users/klasn/FT800_Demo/.meproject/setup/Debug/include/api/gl"
+					"path" : "D:/Dokumenti/Necto-Studio/Projects/FT800 Demo/.meproject/setup/Debug/include/api/gl"
 				},
 				{
 					"backtrace" : 9,
 					"isSystem" : true,
-					"path" : "C:/Users/klasn/FT800_Demo/.meproject/setup/Debug/include/drv"
+					"path" : "D:/Dokumenti/Necto-Studio/Projects/FT800 Demo/.meproject/setup/Debug/include/drv"
 				},
 				{
 					"backtrace" : 9,
 					"isSystem" : true,
-					"path" : "C:/Users/klasn/FT800_Demo/.meproject/setup/Debug/include/hal"
+					"path" : "D:/Dokumenti/Necto-Studio/Projects/FT800 Demo/.meproject/setup/Debug/include/hal"
 				},
 				{
 					"backtrace" : 9,
 					"isSystem" : true,
-					"path" : "C:/Users/klasn/FT800_Demo/.meproject/setup/Debug/include/platform"
+					"path" : "D:/Dokumenti/Necto-Studio/Projects/FT800 Demo/.meproject/setup/Debug/include/platform"
 				},
 				{
 					"backtrace" : 9,
 					"isSystem" : true,
-					"path" : "C:/Users/klasn/FT800_Demo/.meproject/setup/Debug/include/hal_ll_port"
+					"path" : "D:/Dokumenti/Necto-Studio/Projects/FT800 Demo/.meproject/setup/Debug/include/hal_ll_port"
 				},
 				{
 					"backtrace" : 9,
 					"isSystem" : true,
-					"path" : "C:/Users/klasn/FT800_Demo/.meproject/setup/Debug/include/stm32f745vgtx"
+					"path" : "D:/Dokumenti/Necto-Studio/Projects/FT800 Demo/.meproject/setup/Debug/include/stm32f745vgtx"
 				}
 			],
 			"language" : "ASM",
@@ -1606,32 +1606,32 @@
 			},
 			{
 				"backtrace" : 8,
-				"fragment" : "C:/Users/klasn/FT800_Demo/.meproject/setup/FileLinker/stm32f745vg.ld",
+				"fragment" : "\"D:/Dokumenti/Necto-Studio/Projects/FT800 Demo/.meproject/setup/FileLinker/stm32f745vg.ld\"",
 				"role" : "flags"
 			},
 			{
 				"backtrace" : 9,
-				"fragment" : "C:\\Users\\klasn\\FT800_Demo\\.meproject\\setup\\Debug\\lib\\lib_ft800.a",
+				"fragment" : "\"D:\\Dokumenti\\Necto-Studio\\Projects\\FT800 Demo\\.meproject\\setup\\Debug\\lib\\lib_ft800.a\"",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 10,
-				"fragment" : "C:\\Users\\klasn\\FT800_Demo\\.meproject\\setup\\Debug\\lib\\lib_core.a",
+				"fragment" : "\"D:\\Dokumenti\\Necto-Studio\\Projects\\FT800 Demo\\.meproject\\setup\\Debug\\lib\\lib_core.a\"",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 10,
-				"fragment" : "C:\\Users\\klasn\\FT800_Demo\\.meproject\\setup\\Debug\\lib\\lib_core.a",
+				"fragment" : "\"D:\\Dokumenti\\Necto-Studio\\Projects\\FT800 Demo\\.meproject\\setup\\Debug\\lib\\lib_core.a\"",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 15,
-				"fragment" : "C:\\Users\\klasn\\FT800_Demo\\.meproject\\setup\\Debug\\lib\\lib_tp.a",
+				"fragment" : "\"D:\\Dokumenti\\Necto-Studio\\Projects\\FT800 Demo\\.meproject\\setup\\Debug\\lib\\lib_tp.a\"",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 15,
-				"fragment" : "C:\\Users\\klasn\\FT800_Demo\\.meproject\\setup\\Debug\\lib\\lib_gl.a",
+				"fragment" : "\"D:\\Dokumenti\\Necto-Studio\\Projects\\FT800 Demo\\.meproject\\setup\\Debug\\lib\\lib_gl.a\"",
 				"role" : "libraries"
 			},
 			{
@@ -1641,177 +1641,177 @@
 			},
 			{
 				"backtrace" : 15,
-				"fragment" : "C:\\Users\\klasn\\FT800_Demo\\.meproject\\setup\\Debug\\lib\\lib_drv_digital_out.a",
+				"fragment" : "\"D:\\Dokumenti\\Necto-Studio\\Projects\\FT800 Demo\\.meproject\\setup\\Debug\\lib\\lib_drv_digital_out.a\"",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 15,
-				"fragment" : "C:\\Users\\klasn\\FT800_Demo\\.meproject\\setup\\Debug\\lib\\lib_drv_port.a",
+				"fragment" : "\"D:\\Dokumenti\\Necto-Studio\\Projects\\FT800 Demo\\.meproject\\setup\\Debug\\lib\\lib_drv_port.a\"",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 15,
-				"fragment" : "C:\\Users\\klasn\\FT800_Demo\\.meproject\\setup\\Debug\\lib\\lib_drv_spi_master.a",
+				"fragment" : "\"D:\\Dokumenti\\Necto-Studio\\Projects\\FT800 Demo\\.meproject\\setup\\Debug\\lib\\lib_drv_spi_master.a\"",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 27,
-				"fragment" : "C:\\Users\\klasn\\FT800_Demo\\.meproject\\setup\\Debug\\lib\\lib_hal_spi_master.a",
+				"fragment" : "\"D:\\Dokumenti\\Necto-Studio\\Projects\\FT800 Demo\\.meproject\\setup\\Debug\\lib\\lib_hal_spi_master.a\"",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 33,
-				"fragment" : "C:\\Users\\klasn\\FT800_Demo\\.meproject\\setup\\Debug\\lib\\lib_hal_ll_spi_master.a",
+				"fragment" : "\"D:\\Dokumenti\\Necto-Studio\\Projects\\FT800 Demo\\.meproject\\setup\\Debug\\lib\\lib_hal_ll_spi_master.a\"",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 38,
-				"fragment" : "C:\\Users\\klasn\\FT800_Demo\\.meproject\\setup\\Debug\\lib\\lib_drv_adc.a",
+				"fragment" : "\"D:\\Dokumenti\\Necto-Studio\\Projects\\FT800 Demo\\.meproject\\setup\\Debug\\lib\\lib_drv_adc.a\"",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 44,
-				"fragment" : "C:\\Users\\klasn\\FT800_Demo\\.meproject\\setup\\Debug\\lib\\lib_hal_adc.a",
+				"fragment" : "\"D:\\Dokumenti\\Necto-Studio\\Projects\\FT800 Demo\\.meproject\\setup\\Debug\\lib\\lib_hal_adc.a\"",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 50,
-				"fragment" : "C:\\Users\\klasn\\FT800_Demo\\.meproject\\setup\\Debug\\lib\\lib_hal_ll_adc.a",
+				"fragment" : "\"D:\\Dokumenti\\Necto-Studio\\Projects\\FT800 Demo\\.meproject\\setup\\Debug\\lib\\lib_hal_ll_adc.a\"",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 38,
-				"fragment" : "C:\\Users\\klasn\\FT800_Demo\\.meproject\\setup\\Debug\\lib\\lib_drv_digital_in.a",
+				"fragment" : "\"D:\\Dokumenti\\Necto-Studio\\Projects\\FT800 Demo\\.meproject\\setup\\Debug\\lib\\lib_drv_digital_in.a\"",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 56,
-				"fragment" : "C:\\Users\\klasn\\FT800_Demo\\.meproject\\setup\\Debug\\lib\\lib_hal_gpio.a",
+				"fragment" : "\"D:\\Dokumenti\\Necto-Studio\\Projects\\FT800 Demo\\.meproject\\setup\\Debug\\lib\\lib_hal_gpio.a\"",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 38,
-				"fragment" : "C:\\Users\\klasn\\FT800_Demo\\.meproject\\setup\\Debug\\lib\\lib_drv_i2c_master.a",
+				"fragment" : "\"D:\\Dokumenti\\Necto-Studio\\Projects\\FT800 Demo\\.meproject\\setup\\Debug\\lib\\lib_drv_i2c_master.a\"",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 62,
-				"fragment" : "C:\\Users\\klasn\\FT800_Demo\\.meproject\\setup\\Debug\\lib\\lib_hal_i2c_master.a",
+				"fragment" : "\"D:\\Dokumenti\\Necto-Studio\\Projects\\FT800 Demo\\.meproject\\setup\\Debug\\lib\\lib_hal_i2c_master.a\"",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 68,
-				"fragment" : "C:\\Users\\klasn\\FT800_Demo\\.meproject\\setup\\Debug\\lib\\lib_hal_ll_i2c_master.a",
+				"fragment" : "\"D:\\Dokumenti\\Necto-Studio\\Projects\\FT800 Demo\\.meproject\\setup\\Debug\\lib\\lib_hal_ll_i2c_master.a\"",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 38,
-				"fragment" : "C:\\Users\\klasn\\FT800_Demo\\.meproject\\setup\\Debug\\lib\\lib_drv_pwm.a",
+				"fragment" : "\"D:\\Dokumenti\\Necto-Studio\\Projects\\FT800 Demo\\.meproject\\setup\\Debug\\lib\\lib_drv_pwm.a\"",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 74,
-				"fragment" : "C:\\Users\\klasn\\FT800_Demo\\.meproject\\setup\\Debug\\lib\\lib_hal_pwm.a",
+				"fragment" : "\"D:\\Dokumenti\\Necto-Studio\\Projects\\FT800 Demo\\.meproject\\setup\\Debug\\lib\\lib_hal_pwm.a\"",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 80,
-				"fragment" : "C:\\Users\\klasn\\FT800_Demo\\.meproject\\setup\\Debug\\lib\\lib_hal_ll_tim.a",
+				"fragment" : "\"D:\\Dokumenti\\Necto-Studio\\Projects\\FT800 Demo\\.meproject\\setup\\Debug\\lib\\lib_hal_ll_tim.a\"",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 38,
-				"fragment" : "C:\\Users\\klasn\\FT800_Demo\\.meproject\\setup\\Debug\\lib\\lib_drv_uart.a",
+				"fragment" : "\"D:\\Dokumenti\\Necto-Studio\\Projects\\FT800 Demo\\.meproject\\setup\\Debug\\lib\\lib_drv_uart.a\"",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 86,
-				"fragment" : "C:\\Users\\klasn\\FT800_Demo\\.meproject\\setup\\Debug\\lib\\lib_hal_uart.a",
+				"fragment" : "\"D:\\Dokumenti\\Necto-Studio\\Projects\\FT800 Demo\\.meproject\\setup\\Debug\\lib\\lib_hal_uart.a\"",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 92,
-				"fragment" : "C:\\Users\\klasn\\FT800_Demo\\.meproject\\setup\\Debug\\lib\\lib_hal_ll_uart.a",
+				"fragment" : "\"D:\\Dokumenti\\Necto-Studio\\Projects\\FT800 Demo\\.meproject\\setup\\Debug\\lib\\lib_hal_ll_uart.a\"",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 38,
-				"fragment" : "C:\\Users\\klasn\\FT800_Demo\\.meproject\\setup\\Debug\\lib\\lib_drv_one_wire.a",
+				"fragment" : "\"D:\\Dokumenti\\Necto-Studio\\Projects\\FT800 Demo\\.meproject\\setup\\Debug\\lib\\lib_drv_one_wire.a\"",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 98,
-				"fragment" : "C:\\Users\\klasn\\FT800_Demo\\.meproject\\setup\\Debug\\lib\\lib_hal_one_wire.a",
+				"fragment" : "\"D:\\Dokumenti\\Necto-Studio\\Projects\\FT800 Demo\\.meproject\\setup\\Debug\\lib\\lib_hal_one_wire.a\"",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 104,
-				"fragment" : "C:\\Users\\klasn\\FT800_Demo\\.meproject\\setup\\Debug\\lib\\lib_hal_ll_one_wire.a",
+				"fragment" : "\"D:\\Dokumenti\\Necto-Studio\\Projects\\FT800 Demo\\.meproject\\setup\\Debug\\lib\\lib_hal_ll_one_wire.a\"",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 110,
-				"fragment" : "C:\\Users\\klasn\\FT800_Demo\\.meproject\\setup\\Debug\\lib\\lib_hal_ll_gpio.a",
+				"fragment" : "\"D:\\Dokumenti\\Necto-Studio\\Projects\\FT800 Demo\\.meproject\\setup\\Debug\\lib\\lib_hal_ll_gpio.a\"",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 38,
-				"fragment" : "C:\\Users\\klasn\\FT800_Demo\\.meproject\\setup\\Debug\\lib\\lib_drv_can.a",
+				"fragment" : "\"D:\\Dokumenti\\Necto-Studio\\Projects\\FT800 Demo\\.meproject\\setup\\Debug\\lib\\lib_drv_can.a\"",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 116,
-				"fragment" : "C:\\Users\\klasn\\FT800_Demo\\.meproject\\setup\\Debug\\lib\\lib_hal_can.a",
+				"fragment" : "\"D:\\Dokumenti\\Necto-Studio\\Projects\\FT800 Demo\\.meproject\\setup\\Debug\\lib\\lib_hal_can.a\"",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 122,
-				"fragment" : "C:\\Users\\klasn\\FT800_Demo\\.meproject\\setup\\Debug\\lib\\lib_hal_ll_can.a",
+				"fragment" : "\"D:\\Dokumenti\\Necto-Studio\\Projects\\FT800 Demo\\.meproject\\setup\\Debug\\lib\\lib_hal_ll_can.a\"",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 38,
-				"fragment" : "C:\\Users\\klasn\\FT800_Demo\\.meproject\\setup\\Debug\\lib\\lib_drv_dma.a",
+				"fragment" : "\"D:\\Dokumenti\\Necto-Studio\\Projects\\FT800 Demo\\.meproject\\setup\\Debug\\lib\\lib_drv_dma.a\"",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 128,
-				"fragment" : "C:\\Users\\klasn\\FT800_Demo\\.meproject\\setup\\Debug\\lib\\lib_hal_dma.a",
+				"fragment" : "\"D:\\Dokumenti\\Necto-Studio\\Projects\\FT800 Demo\\.meproject\\setup\\Debug\\lib\\lib_hal_dma.a\"",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 134,
-				"fragment" : "C:\\Users\\klasn\\FT800_Demo\\.meproject\\setup\\Debug\\lib\\lib_hal_ll_dma.a",
+				"fragment" : "\"D:\\Dokumenti\\Necto-Studio\\Projects\\FT800 Demo\\.meproject\\setup\\Debug\\lib\\lib_hal_ll_dma.a\"",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 140,
-				"fragment" : "C:\\Users\\klasn\\FT800_Demo\\.meproject\\setup\\Debug\\lib\\lib_hal_ll_core.a",
+				"fragment" : "\"D:\\Dokumenti\\Necto-Studio\\Projects\\FT800 Demo\\.meproject\\setup\\Debug\\lib\\lib_hal_ll_core.a\"",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 38,
-				"fragment" : "C:\\Users\\klasn\\FT800_Demo\\.meproject\\setup\\Debug\\lib\\lib_drv_rtc.a",
+				"fragment" : "\"D:\\Dokumenti\\Necto-Studio\\Projects\\FT800 Demo\\.meproject\\setup\\Debug\\lib\\lib_drv_rtc.a\"",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 146,
-				"fragment" : "C:\\Users\\klasn\\FT800_Demo\\.meproject\\setup\\Debug\\lib\\lib_hal_rtc.a",
+				"fragment" : "\"D:\\Dokumenti\\Necto-Studio\\Projects\\FT800 Demo\\.meproject\\setup\\Debug\\lib\\lib_hal_rtc.a\"",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 152,
-				"fragment" : "C:\\Users\\klasn\\FT800_Demo\\.meproject\\setup\\Debug\\lib\\lib_hal_ll_rtc.a",
+				"fragment" : "\"D:\\Dokumenti\\Necto-Studio\\Projects\\FT800 Demo\\.meproject\\setup\\Debug\\lib\\lib_hal_ll_rtc.a\"",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 86,
-				"fragment" : "C:\\Users\\klasn\\FT800_Demo\\.meproject\\setup\\Debug\\lib\\lib_ring.a",
+				"fragment" : "\"D:\\Dokumenti\\Necto-Studio\\Projects\\FT800 Demo\\.meproject\\setup\\Debug\\lib\\lib_ring.a\"",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 10,
-				"fragment" : "C:\\Users\\klasn\\FT800_Demo\\.meproject\\setup\\Debug\\lib\\lib_core.a",
+				"fragment" : "\"D:\\Dokumenti\\Necto-Studio\\Projects\\FT800 Demo\\.meproject\\setup\\Debug\\lib\\lib_core.a\"",
 				"role" : "libraries"
 			}
 		],

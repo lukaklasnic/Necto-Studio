@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "FT800_Demo::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-FT800_Demo-Debug-2412be1a799ce7bbd555.json",
+					"jsonFile" : "target-FT800_Demo-Debug-8f3380ead444ebab5ebe.json",
 					"name" : "FT800_Demo",
 					"projectIndex" : 0
 				}
@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/klasn/FT800_Demo/build-UNI DS v8",
-		"source" : "C:/Users/klasn/FT800_Demo"
+		"build" : "D:/Dokumenti/Necto-Studio/Projects/FT800 Demo/build-UNI DS v8",
+		"source" : "D:/Dokumenti/Necto-Studio/Projects/FT800 Demo"
 	},
 	"version" : 
 	{

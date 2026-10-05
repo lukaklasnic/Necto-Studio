@@ -7,10 +7,10 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : ""
+					"value" : "No help, variable specified on the command line."
 				}
 			],
-			"type" : "STRING",
+			"type" : "UNINITIALIZED",
 			"value" : "TRUE"
 		},
 		{
@@ -23,10 +23,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : ""
+					"value" : "Path to a program."
 				}
 			],
-			"type" : "STRING",
+			"type" : "FILEPATH",
 			"value" : "C:/Users/klasn/AppData/Local/MIKROE/NECTOStudio7/packages/compilers/gcc/arm/gcc-arm-none-eabi/bin/arm-none-eabi-addr2line.exe"
 		},
 		{
@@ -39,10 +39,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : ""
+					"value" : "Path to a program."
 				}
 			],
-			"type" : "STRING",
+			"type" : "FILEPATH",
 			"value" : "C:/Users/klasn/AppData/Local/MIKROE/NECTOStudio7/packages/compilers/gcc/arm/gcc-arm-none-eabi/bin/arm-none-eabi-ar.exe"
 		},
 		{
@@ -55,10 +55,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : ""
+					"value" : "ASM compiler"
 				}
 			],
-			"type" : "STRING",
+			"type" : "FILEPATH",
 			"value" : "C:/Users/klasn/AppData/Local/MIKROE/NECTOStudio7/packages/compilers/gcc/arm/gcc-arm-none-eabi/bin/arm-none-eabi-gcc.exe"
 		},
 		{
@@ -71,10 +71,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : ""
+					"value" : "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
 				}
 			],
-			"type" : "STRING",
+			"type" : "FILEPATH",
 			"value" : "C:/Users/klasn/AppData/Local/MIKROE/NECTOStudio7/packages/compilers/gcc/arm/gcc-arm-none-eabi/bin/arm-none-eabi-gcc-ar.exe"
 		},
 		{
@@ -87,10 +87,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : ""
+					"value" : "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
 				}
 			],
-			"type" : "STRING",
+			"type" : "FILEPATH",
 			"value" : "C:/Users/klasn/AppData/Local/MIKROE/NECTOStudio7/packages/compilers/gcc/arm/gcc-arm-none-eabi/bin/arm-none-eabi-gcc-ranlib.exe"
 		},
 		{
@@ -102,7 +102,7 @@
 					"value" : ""
 				}
 			],
-			"type" : "STRING",
+			"type" : "INTERNAL",
 			"value" : "1"
 		},
 		{
@@ -131,7 +131,7 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : ""
+					"value" : "Flags used by the ASM compiler during DEBUG builds."
 				}
 			],
 			"type" : "STRING",
@@ -147,7 +147,7 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : ""
+					"value" : "Flags used by the ASM compiler during MINSIZEREL builds."
 				}
 			],
 			"type" : "STRING",
@@ -163,7 +163,7 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : ""
+					"value" : "Flags used by the ASM compiler during RELEASE builds."
 				}
 			],
 			"type" : "STRING",
@@ -179,7 +179,7 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : ""
+					"value" : "Flags used by the ASM compiler during RELWITHDEBINFO builds."
 				}
 			],
 			"type" : "STRING",
@@ -191,7 +191,7 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : ""
+					"value" : "Choose the type of build, options are: None Debug Release RelWithDebInfo MinSizeRel ..."
 				}
 			],
 			"type" : "STRING",
@@ -207,7 +207,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/klasn/FT800_Demo/build-UNI DS v8"
+			"value" : "d:/Dokumenti/Necto-Studio/Projects/FT800 Demo/build-UNI DS v8"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -251,10 +251,10 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : ""
+					"value" : "Path to CMake executable."
 				}
 			],
-			"type" : "STRING",
+			"type" : "INTERNAL",
 			"value" : "C:/Users/klasn/AppData/Local/MIKROE/NECTOStudio7/packages/CMake/bin/cmake.exe"
 		},
 		{
@@ -263,10 +263,10 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : ""
+					"value" : "Path to cpack program executable."
 				}
 			],
-			"type" : "STRING",
+			"type" : "INTERNAL",
 			"value" : "C:/Users/klasn/AppData/Local/MIKROE/NECTOStudio7/packages/CMake/bin/cpack.exe"
 		},
 		{
@@ -275,10 +275,10 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : ""
+					"value" : "Path to ctest program executable."
 				}
 			],
-			"type" : "STRING",
+			"type" : "INTERNAL",
 			"value" : "C:/Users/klasn/AppData/Local/MIKROE/NECTOStudio7/packages/CMake/bin/ctest.exe"
 		},
 		{
@@ -298,11 +298,15 @@
 			"properties" : 
 			[
 				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
 					"name" : "HELPSTRING",
-					"value" : ""
+					"value" : "C compiler"
 				}
 			],
-			"type" : "INTERNAL",
+			"type" : "STRING",
 			"value" : "C:/Users/klasn/AppData/Local/MIKROE/NECTOStudio7/packages/compilers/gcc/arm/gcc-arm-none-eabi/bin/arm-none-eabi-gcc.exe"
 		},
 		{
@@ -315,10 +319,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : ""
+					"value" : "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
 				}
 			],
-			"type" : "STRING",
+			"type" : "FILEPATH",
 			"value" : "C:/Users/klasn/AppData/Local/MIKROE/NECTOStudio7/packages/compilers/gcc/arm/gcc-arm-none-eabi/bin/arm-none-eabi-gcc-ar.exe"
 		},
 		{
@@ -331,10 +335,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : ""
+					"value" : "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
 				}
 			],
-			"type" : "STRING",
+			"type" : "FILEPATH",
 			"value" : "C:/Users/klasn/AppData/Local/MIKROE/NECTOStudio7/packages/compilers/gcc/arm/gcc-arm-none-eabi/bin/arm-none-eabi-gcc-ranlib.exe"
 		},
 		{
@@ -363,7 +367,7 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : ""
+					"value" : "Flags used by the C compiler during DEBUG builds."
 				}
 			],
 			"type" : "STRING",
@@ -379,7 +383,7 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : ""
+					"value" : "Flags used by the C compiler during MINSIZEREL builds."
 				}
 			],
 			"type" : "STRING",
@@ -395,7 +399,7 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : ""
+					"value" : "Flags used by the C compiler during RELEASE builds."
 				}
 			],
 			"type" : "STRING",
@@ -411,7 +415,7 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : ""
+					"value" : "Flags used by the C compiler during RELWITHDEBINFO builds."
 				}
 			],
 			"type" : "STRING",
@@ -427,10 +431,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : ""
+					"value" : "Path to a program."
 				}
 			],
-			"type" : "STRING",
+			"type" : "FILEPATH",
 			"value" : "C:/msys64/ucrt64/bin/dlltool.exe"
 		},
 		{
@@ -439,10 +443,10 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : ""
+					"value" : "Path to cache edit program executable."
 				}
 			],
-			"type" : "STRING",
+			"type" : "INTERNAL",
 			"value" : "C:/Users/klasn/AppData/Local/MIKROE/NECTOStudio7/packages/CMake/bin/cmake-gui.exe"
 		},
 		{
@@ -451,10 +455,10 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : ""
+					"value" : "Executable file format"
 				}
 			],
-			"type" : "STRING",
+			"type" : "INTERNAL",
 			"value" : "ELF"
 		},
 		{
@@ -543,10 +547,10 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : ""
+					"value" : "No help, variable specified on the command line."
 				}
 			],
-			"type" : "STRING",
+			"type" : "UNINITIALIZED",
 			"value" : "1"
 		},
 		{
@@ -567,11 +571,11 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : ""
+					"value" : "Value Computed by CMake."
 				}
 			],
-			"type" : "STRING",
-			"value" : "C:/Users/klasn/FT800_Demo/build-UNI DS v8/CMakeFiles/pkgRedirects"
+			"type" : "STATIC",
+			"value" : "D:/Dokumenti/Necto-Studio/Projects/FT800 Demo/build-UNI DS v8/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -579,10 +583,10 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : ""
+					"value" : "Name of generator."
 				}
 			],
-			"type" : "STRING",
+			"type" : "INTERNAL",
 			"value" : "Ninja"
 		},
 		{
@@ -627,11 +631,11 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : ""
+					"value" : "Source directory with the top level CMakeLists.txt file for this project"
 				}
 			],
-			"type" : "STRING",
-			"value" : "C:/Users/klasn/FT800_Demo"
+			"type" : "INTERNAL",
+			"value" : "D:/Dokumenti/Necto-Studio/Projects/FT800 Demo"
 		},
 		{
 			"name" : "CMAKE_INSTALL_BINDIR",
@@ -643,10 +647,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : ""
+					"value" : "User executables (bin)"
 				}
 			],
-			"type" : "STRING",
+			"type" : "PATH",
 			"value" : "bin"
 		},
 		{
@@ -675,10 +679,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : ""
+					"value" : "Read-only architecture-independent data root (share)"
 				}
 			],
-			"type" : "STRING",
+			"type" : "PATH",
 			"value" : "share"
 		},
 		{
@@ -707,10 +711,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : ""
+					"value" : "C header files (include)"
 				}
 			],
-			"type" : "STRING",
+			"type" : "PATH",
 			"value" : "include"
 		},
 		{
@@ -739,10 +743,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : ""
+					"value" : "Object code libraries (lib)"
 				}
 			],
-			"type" : "STRING",
+			"type" : "PATH",
 			"value" : "lib"
 		},
 		{
@@ -755,10 +759,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : ""
+					"value" : "Program executables (libexec)"
 				}
 			],
-			"type" : "STRING",
+			"type" : "PATH",
 			"value" : "libexec"
 		},
 		{
@@ -787,10 +791,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : ""
+					"value" : "Modifiable single-machine data (var)"
 				}
 			],
-			"type" : "STRING",
+			"type" : "PATH",
 			"value" : "var"
 		},
 		{
@@ -819,10 +823,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : ""
+					"value" : "C header files for non-gcc (/usr/include)"
 				}
 			],
-			"type" : "STRING",
+			"type" : "PATH",
 			"value" : "/usr/include"
 		},
 		{
@@ -831,11 +835,11 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : ""
+					"value" : "Install path prefix, prepended onto install directories."
 				}
 			],
-			"type" : "STRING",
-			"value" : "C:/Users/klasn/FT800_Demo/install"
+			"type" : "PATH",
+			"value" : "D:/Dokumenti/Necto-Studio/Projects/FT800 Demo/install"
 		},
 		{
 			"name" : "CMAKE_INSTALL_RUNSTATEDIR",
@@ -863,10 +867,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : ""
+					"value" : "System admin executables (sbin)"
 				}
 			],
-			"type" : "STRING",
+			"type" : "PATH",
 			"value" : "sbin"
 		},
 		{
@@ -879,10 +883,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : ""
+					"value" : "Modifiable architecture-independent data (com)"
 				}
 			],
-			"type" : "STRING",
+			"type" : "PATH",
 			"value" : "com"
 		},
 		{
@@ -895,10 +899,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : ""
+					"value" : "Read-only single-machine data (etc)"
 				}
 			],
-			"type" : "STRING",
+			"type" : "PATH",
 			"value" : "etc"
 		},
 		{
@@ -911,10 +915,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : ""
+					"value" : "Path to a program."
 				}
 			],
-			"type" : "STRING",
+			"type" : "FILEPATH",
 			"value" : "C:/Users/klasn/AppData/Local/MIKROE/NECTOStudio7/packages/compilers/gcc/arm/gcc-arm-none-eabi/bin/arm-none-eabi-ld.exe"
 		},
 		{
@@ -923,10 +927,10 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : ""
+					"value" : "No help, variable specified on the command line."
 				}
 			],
-			"type" : "STRING",
+			"type" : "UNINITIALIZED",
 			"value" : "C:/MikroElektronika/MikroElektronika/NECTOStudio/bin/ninja.exe"
 		},
 		{
@@ -1019,10 +1023,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : ""
+					"value" : "Path to a program."
 				}
 			],
-			"type" : "STRING",
+			"type" : "FILEPATH",
 			"value" : "C:/Users/klasn/AppData/Local/MIKROE/NECTOStudio7/packages/compilers/gcc/arm/gcc-arm-none-eabi/bin/arm-none-eabi-nm.exe"
 		},
 		{
@@ -1047,10 +1051,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : ""
+					"value" : "Path to a program."
 				}
 			],
-			"type" : "STRING",
+			"type" : "FILEPATH",
 			"value" : "C:/Users/klasn/AppData/Local/MIKROE/NECTOStudio7/packages/compilers/gcc/arm/gcc-arm-none-eabi/bin/arm-none-eabi-objcopy.exe"
 		},
 		{
@@ -1063,10 +1067,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : ""
+					"value" : "Path to a program."
 				}
 			],
-			"type" : "STRING",
+			"type" : "FILEPATH",
 			"value" : "C:/Users/klasn/AppData/Local/MIKROE/NECTOStudio7/packages/compilers/gcc/arm/gcc-arm-none-eabi/bin/arm-none-eabi-objdump.exe"
 		},
 		{
@@ -1075,10 +1079,10 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : ""
+					"value" : "Platform information initialized"
 				}
 			],
-			"type" : "STRING",
+			"type" : "INTERNAL",
 			"value" : "1"
 		},
 		{
@@ -1087,11 +1091,11 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : ""
+					"value" : "No help, variable specified on the command line."
 				}
 			],
-			"type" : "STRING",
-			"value" : "C:/Users/klasn/FT800_Demo/install"
+			"type" : "UNINITIALIZED",
+			"value" : "D:/Dokumenti/Necto-Studio/Projects/FT800 Demo/install"
 		},
 		{
 			"name" : "CMAKE_PROJECT_DESCRIPTION",
@@ -1123,10 +1127,10 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : ""
+					"value" : "Value Computed by CMake"
 				}
 			],
-			"type" : "STRING",
+			"type" : "STATIC",
 			"value" : "FT800_Demo"
 		},
 		{
@@ -1139,10 +1143,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : ""
+					"value" : "Path to a program."
 				}
 			],
-			"type" : "STRING",
+			"type" : "FILEPATH",
 			"value" : "C:/Users/klasn/AppData/Local/MIKROE/NECTOStudio7/packages/compilers/gcc/arm/gcc-arm-none-eabi/bin/arm-none-eabi-ranlib.exe"
 		},
 		{
@@ -1155,10 +1159,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : ""
+					"value" : "Path to a program."
 				}
 			],
-			"type" : "STRING",
+			"type" : "FILEPATH",
 			"value" : "C:/Users/klasn/AppData/Local/MIKROE/NECTOStudio7/packages/compilers/gcc/arm/gcc-arm-none-eabi/bin/arm-none-eabi-readelf.exe"
 		},
 		{
@@ -1167,10 +1171,10 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : ""
+					"value" : "Path to CMake installation."
 				}
 			],
-			"type" : "STRING",
+			"type" : "INTERNAL",
 			"value" : "C:/Users/klasn/AppData/Local/MIKROE/NECTOStudio7/packages/CMake/share/cmake-3.30"
 		},
 		{
@@ -1263,10 +1267,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : ""
+					"value" : "If set, runtime paths are not added when installing shared libraries, but are added when building."
 				}
 			],
-			"type" : "STRING",
+			"type" : "BOOL",
 			"value" : "NO"
 		},
 		{
@@ -1279,10 +1283,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : ""
+					"value" : "If set, runtime paths are not added when using shared libraries."
 				}
 			],
-			"type" : "STRING",
+			"type" : "BOOL",
 			"value" : "NO"
 		},
 		{
@@ -1375,10 +1379,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : ""
+					"value" : "Path to a program."
 				}
 			],
-			"type" : "STRING",
+			"type" : "FILEPATH",
 			"value" : "C:/Users/klasn/AppData/Local/MIKROE/NECTOStudio7/packages/compilers/gcc/arm/gcc-arm-none-eabi/bin/arm-none-eabi-strip.exe"
 		},
 		{
@@ -1391,10 +1395,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : ""
+					"value" : "Path to a program."
 				}
 			],
-			"type" : "STRING",
+			"type" : "FILEPATH",
 			"value" : "CMAKE_TAPI-NOTFOUND"
 		},
 		{
@@ -1403,11 +1407,11 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : ""
+					"value" : "The CMake toolchain file"
 				}
 			],
-			"type" : "STRING",
-			"value" : "C:/Users/klasn/FT800_Demo/build-UNI DS v8/toolchain.cmake"
+			"type" : "FILEPATH",
+			"value" : "D:/Dokumenti/Necto-Studio/Projects/FT800 Demo/build-UNI DS v8/toolchain.cmake"
 		},
 		{
 			"name" : "CMAKE_VERBOSE_MAKEFILE",
@@ -1419,10 +1423,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : ""
+					"value" : "If this value is on, makefiles will be generated without the .SILENT directive, and all commands will be echoed to the console during the make.  This is useful for debugging only. With Visual Studio IDE projects all commands are done without /nologo."
 				}
 			],
-			"type" : "STRING",
+			"type" : "BOOL",
 			"value" : "FALSE"
 		},
 		{
@@ -1443,10 +1447,10 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : ""
+					"value" : "No help, variable specified on the command line."
 				}
 			],
-			"type" : "STRING",
+			"type" : "UNINITIALIZED",
 			"value" : "TRUE"
 		},
 		{
@@ -1455,10 +1459,10 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : ""
+					"value" : "No help, variable specified on the command line."
 				}
 			],
-			"type" : "STRING",
+			"type" : "UNINITIALIZED",
 			"value" : "FLATTEN_ME_LEVEL_HIGH"
 		},
 		{
@@ -1467,11 +1471,11 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : ""
+					"value" : "Value Computed by CMake"
 				}
 			],
-			"type" : "STRING",
-			"value" : "C:/Users/klasn/FT800_Demo/build-UNI DS v8"
+			"type" : "STATIC",
+			"value" : "D:/Dokumenti/Necto-Studio/Projects/FT800 Demo/build-UNI DS v8"
 		},
 		{
 			"name" : "FT800_Demo_IS_TOP_LEVEL",
@@ -1479,10 +1483,10 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : ""
+					"value" : "Value Computed by CMake"
 				}
 			],
-			"type" : "STRING",
+			"type" : "STATIC",
 			"value" : "ON"
 		},
 		{
@@ -1491,11 +1495,11 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : ""
+					"value" : "Value Computed by CMake"
 				}
 			],
-			"type" : "STRING",
-			"value" : "C:/Users/klasn/FT800_Demo"
+			"type" : "STATIC",
+			"value" : "D:/Dokumenti/Necto-Studio/Projects/FT800 Demo"
 		},
 		{
 			"name" : "HAS_MIKROBUS",
@@ -1515,10 +1519,10 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : ""
+					"value" : "No help, variable specified on the command line."
 				}
 			],
-			"type" : "STRING",
+			"type" : "UNINITIALIZED",
 			"value" : "FALSE"
 		},
 		{
@@ -1527,10 +1531,10 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : ""
+					"value" : "No help, variable specified on the command line."
 				}
 			],
-			"type" : "STRING",
+			"type" : "UNINITIALIZED",
 			"value" : "LOG_INTERFACE_STDOUT"
 		},
 		{
@@ -1539,10 +1543,10 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : ""
+					"value" : "No help, variable specified on the command line."
 				}
 			],
-			"type" : "STRING",
+			"type" : "UNINITIALIZED",
 			"value" : "1048576"
 		},
 		{
@@ -1551,10 +1555,10 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : ""
+					"value" : "No help, variable specified on the command line."
 				}
 			],
-			"type" : "STRING",
+			"type" : "UNINITIALIZED",
 			"value" : "0"
 		},
 		{
@@ -1575,10 +1579,10 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : ""
+					"value" : "No help, variable specified on the command line."
 				}
 			],
-			"type" : "STRING",
+			"type" : "UNINITIALIZED",
 			"value" : "327680"
 		},
 		{
@@ -1587,10 +1591,10 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : ""
+					"value" : "No help, variable specified on the command line."
 				}
 			],
-			"type" : "STRING",
+			"type" : "UNINITIALIZED",
 			"value" : "mikrosdk"
 		},
 		{
@@ -1599,10 +1603,10 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : ""
+					"value" : "No help, variable specified on the command line."
 				}
 			],
-			"type" : "STRING",
+			"type" : "UNINITIALIZED",
 			"value" : "TRUE"
 		},
 		{
@@ -1611,11 +1615,11 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : ""
+					"value" : "The directory containing a CMake configuration file for MikroC.Core."
 				}
 			],
-			"type" : "STRING",
-			"value" : "C:/Users/klasn/FT800_Demo/.meproject/setup/Debug/lib/cmake/MikroC.Core"
+			"type" : "PATH",
+			"value" : "D:/Dokumenti/Necto-Studio/Projects/FT800 Demo/.meproject/setup/Debug/lib/cmake/MikroC.Core"
 		},
 		{
 			"name" : "MikroSDK.Board_DIR",
@@ -1623,11 +1627,11 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : ""
+					"value" : "The directory containing a CMake configuration file for MikroSDK.Board."
 				}
 			],
-			"type" : "STRING",
-			"value" : "C:/Users/klasn/FT800_Demo/.meproject/setup/Debug/lib/cmake/MikroSDK.Board"
+			"type" : "PATH",
+			"value" : "D:/Dokumenti/Necto-Studio/Projects/FT800 Demo/.meproject/setup/Debug/lib/cmake/MikroSDK.Board"
 		},
 		{
 			"name" : "MikroSDK.Driver.ADC_DIR",
@@ -1635,11 +1639,11 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : ""
+					"value" : "The directory containing a CMake configuration file for MikroSDK.Driver.ADC."
 				}
 			],
-			"type" : "STRING",
-			"value" : "C:/Users/klasn/FT800_Demo/.meproject/setup/Debug/lib/cmake/MikroSDK.Driver.ADC"
+			"type" : "PATH",
+			"value" : "D:/Dokumenti/Necto-Studio/Projects/FT800 Demo/.meproject/setup/Debug/lib/cmake/MikroSDK.Driver.ADC"
 		},
 		{
 			"name" : "MikroSDK.Driver.CAN_DIR",
@@ -1647,11 +1651,11 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : ""
+					"value" : "The directory containing a CMake configuration file for MikroSDK.Driver.CAN."
 				}
 			],
-			"type" : "STRING",
-			"value" : "C:/Users/klasn/FT800_Demo/.meproject/setup/Debug/lib/cmake/MikroSDK.Driver.CAN"
+			"type" : "PATH",
+			"value" : "D:/Dokumenti/Necto-Studio/Projects/FT800 Demo/.meproject/setup/Debug/lib/cmake/MikroSDK.Driver.CAN"
 		},
 		{
 			"name" : "MikroSDK.Driver.DMA_DIR",
@@ -1659,11 +1663,11 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : ""
+					"value" : "The directory containing a CMake configuration file for MikroSDK.Driver.DMA."
 				}
 			],
-			"type" : "STRING",
-			"value" : "C:/Users/klasn/FT800_Demo/.meproject/setup/Debug/lib/cmake/MikroSDK.Driver.DMA"
+			"type" : "PATH",
+			"value" : "D:/Dokumenti/Necto-Studio/Projects/FT800 Demo/.meproject/setup/Debug/lib/cmake/MikroSDK.Driver.DMA"
 		},
 		{
 			"name" : "MikroSDK.Driver.GPIO.In_DIR",
@@ -1671,11 +1675,11 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : ""
+					"value" : "The directory containing a CMake configuration file for MikroSDK.Driver.GPIO.In."
 				}
 			],
-			"type" : "STRING",
-			"value" : "C:/Users/klasn/FT800_Demo/.meproject/setup/Debug/lib/cmake/MikroSDK.Driver.GPIO.In"
+			"type" : "PATH",
+			"value" : "D:/Dokumenti/Necto-Studio/Projects/FT800 Demo/.meproject/setup/Debug/lib/cmake/MikroSDK.Driver.GPIO.In"
 		},
 		{
 			"name" : "MikroSDK.Driver.GPIO.Out_DIR",
@@ -1683,11 +1687,11 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : ""
+					"value" : "The directory containing a CMake configuration file for MikroSDK.Driver.GPIO.Out."
 				}
 			],
-			"type" : "STRING",
-			"value" : "C:/Users/klasn/FT800_Demo/.meproject/setup/Debug/lib/cmake/MikroSDK.Driver.GPIO.Out"
+			"type" : "PATH",
+			"value" : "D:/Dokumenti/Necto-Studio/Projects/FT800 Demo/.meproject/setup/Debug/lib/cmake/MikroSDK.Driver.GPIO.Out"
 		},
 		{
 			"name" : "MikroSDK.Driver.GPIO.Port_DIR",
@@ -1695,11 +1699,11 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : ""
+					"value" : "The directory containing a CMake configuration file for MikroSDK.Driver.GPIO.Port."
 				}
 			],
-			"type" : "STRING",
-			"value" : "C:/Users/klasn/FT800_Demo/.meproject/setup/Debug/lib/cmake/MikroSDK.Driver.GPIO.Port"
+			"type" : "PATH",
+			"value" : "D:/Dokumenti/Necto-Studio/Projects/FT800 Demo/.meproject/setup/Debug/lib/cmake/MikroSDK.Driver.GPIO.Port"
 		},
 		{
 			"name" : "MikroSDK.Driver.I2C.Master_DIR",
@@ -1707,11 +1711,11 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : ""
+					"value" : "The directory containing a CMake configuration file for MikroSDK.Driver.I2C.Master."
 				}
 			],
-			"type" : "STRING",
-			"value" : "C:/Users/klasn/FT800_Demo/.meproject/setup/Debug/lib/cmake/MikroSDK.Driver.I2C.Master"
+			"type" : "PATH",
+			"value" : "D:/Dokumenti/Necto-Studio/Projects/FT800 Demo/.meproject/setup/Debug/lib/cmake/MikroSDK.Driver.I2C.Master"
 		},
 		{
 			"name" : "MikroSDK.Driver.OneWire_DIR",
@@ -1719,11 +1723,11 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : ""
+					"value" : "The directory containing a CMake configuration file for MikroSDK.Driver.OneWire."
 				}
 			],
-			"type" : "STRING",
-			"value" : "C:/Users/klasn/FT800_Demo/.meproject/setup/Debug/lib/cmake/MikroSDK.Driver.OneWire"
+			"type" : "PATH",
+			"value" : "D:/Dokumenti/Necto-Studio/Projects/FT800 Demo/.meproject/setup/Debug/lib/cmake/MikroSDK.Driver.OneWire"
 		},
 		{
 			"name" : "MikroSDK.Driver.PWM_DIR",
@@ -1731,11 +1735,11 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : ""
+					"value" : "The directory containing a CMake configuration file for MikroSDK.Driver.PWM."
 				}
 			],
-			"type" : "STRING",
-			"value" : "C:/Users/klasn/FT800_Demo/.meproject/setup/Debug/lib/cmake/MikroSDK.Driver.PWM"
+			"type" : "PATH",
+			"value" : "D:/Dokumenti/Necto-Studio/Projects/FT800 Demo/.meproject/setup/Debug/lib/cmake/MikroSDK.Driver.PWM"
 		},
 		{
 			"name" : "MikroSDK.Driver.RTC_DIR",
@@ -1743,11 +1747,11 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : ""
+					"value" : "The directory containing a CMake configuration file for MikroSDK.Driver.RTC."
 				}
 			],
-			"type" : "STRING",
-			"value" : "C:/Users/klasn/FT800_Demo/.meproject/setup/Debug/lib/cmake/MikroSDK.Driver.RTC"
+			"type" : "PATH",
+			"value" : "D:/Dokumenti/Necto-Studio/Projects/FT800 Demo/.meproject/setup/Debug/lib/cmake/MikroSDK.Driver.RTC"
 		},
 		{
 			"name" : "MikroSDK.Driver.SPI.Master_DIR",
@@ -1755,11 +1759,11 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : ""
+					"value" : "The directory containing a CMake configuration file for MikroSDK.Driver.SPI.Master."
 				}
 			],
-			"type" : "STRING",
-			"value" : "C:/Users/klasn/FT800_Demo/.meproject/setup/Debug/lib/cmake/MikroSDK.Driver.SPI.Master"
+			"type" : "PATH",
+			"value" : "D:/Dokumenti/Necto-Studio/Projects/FT800 Demo/.meproject/setup/Debug/lib/cmake/MikroSDK.Driver.SPI.Master"
 		},
 		{
 			"name" : "MikroSDK.Driver.UART_DIR",
@@ -1767,11 +1771,11 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : ""
+					"value" : "The directory containing a CMake configuration file for MikroSDK.Driver.UART."
 				}
 			],
-			"type" : "STRING",
-			"value" : "C:/Users/klasn/FT800_Demo/.meproject/setup/Debug/lib/cmake/MikroSDK.Driver.UART"
+			"type" : "PATH",
+			"value" : "D:/Dokumenti/Necto-Studio/Projects/FT800 Demo/.meproject/setup/Debug/lib/cmake/MikroSDK.Driver.UART"
 		},
 		{
 			"name" : "MikroSDK.Driver_DIR",
@@ -1779,11 +1783,11 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : ""
+					"value" : "The directory containing a CMake configuration file for MikroSDK.Driver."
 				}
 			],
-			"type" : "STRING",
-			"value" : "C:/Users/klasn/FT800_Demo/.meproject/setup/Debug/lib/cmake/MikroSDK.Driver"
+			"type" : "PATH",
+			"value" : "D:/Dokumenti/Necto-Studio/Projects/FT800 Demo/.meproject/setup/Debug/lib/cmake/MikroSDK.Driver"
 		},
 		{
 			"name" : "MikroSDK.Ft800_DIR",
@@ -1791,11 +1795,11 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : ""
+					"value" : "The directory containing a CMake configuration file for MikroSDK.Ft800."
 				}
 			],
-			"type" : "STRING",
-			"value" : "C:/Users/klasn/FT800_Demo/.meproject/setup/Debug/lib/cmake/MikroSDK.Ft800"
+			"type" : "PATH",
+			"value" : "D:/Dokumenti/Necto-Studio/Projects/FT800 Demo/.meproject/setup/Debug/lib/cmake/MikroSDK.Ft800"
 		},
 		{
 			"name" : "MikroSDK.GenericPointer_DIR",
@@ -1803,11 +1807,11 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : ""
+					"value" : "The directory containing a CMake configuration file for MikroSDK.GenericPointer."
 				}
 			],
-			"type" : "STRING",
-			"value" : "C:/Users/klasn/FT800_Demo/.meproject/setup/Debug/lib/cmake/MikroSDK.GenericPointer"
+			"type" : "PATH",
+			"value" : "D:/Dokumenti/Necto-Studio/Projects/FT800 Demo/.meproject/setup/Debug/lib/cmake/MikroSDK.GenericPointer"
 		},
 		{
 			"name" : "MikroSDK.GraphicLibrary_DIR",
@@ -1815,11 +1819,11 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : ""
+					"value" : "The directory containing a CMake configuration file for MikroSDK.GraphicLibrary."
 				}
 			],
-			"type" : "STRING",
-			"value" : "C:/Users/klasn/FT800_Demo/.meproject/setup/Debug/lib/cmake/MikroSDK.GraphicLibrary"
+			"type" : "PATH",
+			"value" : "D:/Dokumenti/Necto-Studio/Projects/FT800 Demo/.meproject/setup/Debug/lib/cmake/MikroSDK.GraphicLibrary"
 		},
 		{
 			"name" : "MikroSDK.Hal.ADC_DIR",
@@ -1827,11 +1831,11 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : ""
+					"value" : "The directory containing a CMake configuration file for MikroSDK.Hal.ADC."
 				}
 			],
-			"type" : "STRING",
-			"value" : "C:/Users/klasn/FT800_Demo/.meproject/setup/Debug/lib/cmake/MikroSDK.Hal.ADC"
+			"type" : "PATH",
+			"value" : "D:/Dokumenti/Necto-Studio/Projects/FT800 Demo/.meproject/setup/Debug/lib/cmake/MikroSDK.Hal.ADC"
 		},
 		{
 			"name" : "MikroSDK.Hal.CAN_DIR",
@@ -1839,11 +1843,11 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : ""
+					"value" : "The directory containing a CMake configuration file for MikroSDK.Hal.CAN."
 				}
 			],
-			"type" : "STRING",
-			"value" : "C:/Users/klasn/FT800_Demo/.meproject/setup/Debug/lib/cmake/MikroSDK.Hal.CAN"
+			"type" : "PATH",
+			"value" : "D:/Dokumenti/Necto-Studio/Projects/FT800 Demo/.meproject/setup/Debug/lib/cmake/MikroSDK.Hal.CAN"
 		},
 		{
 			"name" : "MikroSDK.Hal.DMA_DIR",
@@ -1851,11 +1855,11 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : ""
+					"value" : "The directory containing a CMake configuration file for MikroSDK.Hal.DMA."
 				}
 			],
-			"type" : "STRING",
-			"value" : "C:/Users/klasn/FT800_Demo/.meproject/setup/Debug/lib/cmake/MikroSDK.Hal.DMA"
+			"type" : "PATH",
+			"value" : "D:/Dokumenti/Necto-Studio/Projects/FT800 Demo/.meproject/setup/Debug/lib/cmake/MikroSDK.Hal.DMA"
 		},
 		{
 			"name" : "MikroSDK.Hal.GPIO_DIR",
@@ -1863,11 +1867,11 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : ""
+					"value" : "The directory containing a CMake configuration file for MikroSDK.Hal.GPIO."
 				}
 			],
-			"type" : "STRING",
-			"value" : "C:/Users/klasn/FT800_Demo/.meproject/setup/Debug/lib/cmake/MikroSDK.Hal.GPIO"
+			"type" : "PATH",
+			"value" : "D:/Dokumenti/Necto-Studio/Projects/FT800 Demo/.meproject/setup/Debug/lib/cmake/MikroSDK.Hal.GPIO"
 		},
 		{
 			"name" : "MikroSDK.Hal.I2C.Master_DIR",
@@ -1875,11 +1879,11 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : ""
+					"value" : "The directory containing a CMake configuration file for MikroSDK.Hal.I2C.Master."
 				}
 			],
-			"type" : "STRING",
-			"value" : "C:/Users/klasn/FT800_Demo/.meproject/setup/Debug/lib/cmake/MikroSDK.Hal.I2C.Master"
+			"type" : "PATH",
+			"value" : "D:/Dokumenti/Necto-Studio/Projects/FT800 Demo/.meproject/setup/Debug/lib/cmake/MikroSDK.Hal.I2C.Master"
 		},
 		{
 			"name" : "MikroSDK.Hal.OneWire_DIR",
@@ -1887,11 +1891,11 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : ""
+					"value" : "The directory containing a CMake configuration file for MikroSDK.Hal.OneWire."
 				}
 			],
-			"type" : "STRING",
-			"value" : "C:/Users/klasn/FT800_Demo/.meproject/setup/Debug/lib/cmake/MikroSDK.Hal.OneWire"
+			"type" : "PATH",
+			"value" : "D:/Dokumenti/Necto-Studio/Projects/FT800 Demo/.meproject/setup/Debug/lib/cmake/MikroSDK.Hal.OneWire"
 		},
 		{
 			"name" : "MikroSDK.Hal.PWM_DIR",
@@ -1899,11 +1903,11 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : ""
+					"value" : "The directory containing a CMake configuration file for MikroSDK.Hal.PWM."
 				}
 			],
-			"type" : "STRING",
-			"value" : "C:/Users/klasn/FT800_Demo/.meproject/setup/Debug/lib/cmake/MikroSDK.Hal.PWM"
+			"type" : "PATH",
+			"value" : "D:/Dokumenti/Necto-Studio/Projects/FT800 Demo/.meproject/setup/Debug/lib/cmake/MikroSDK.Hal.PWM"
 		},
 		{
 			"name" : "MikroSDK.Hal.RTC_DIR",
@@ -1911,11 +1915,11 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : ""
+					"value" : "The directory containing a CMake configuration file for MikroSDK.Hal.RTC."
 				}
 			],
-			"type" : "STRING",
-			"value" : "C:/Users/klasn/FT800_Demo/.meproject/setup/Debug/lib/cmake/MikroSDK.Hal.RTC"
+			"type" : "PATH",
+			"value" : "D:/Dokumenti/Necto-Studio/Projects/FT800 Demo/.meproject/setup/Debug/lib/cmake/MikroSDK.Hal.RTC"
 		},
 		{
 			"name" : "MikroSDK.Hal.SPI.Master_DIR",
@@ -1923,11 +1927,11 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : ""
+					"value" : "The directory containing a CMake configuration file for MikroSDK.Hal.SPI.Master."
 				}
 			],
-			"type" : "STRING",
-			"value" : "C:/Users/klasn/FT800_Demo/.meproject/setup/Debug/lib/cmake/MikroSDK.Hal.SPI.Master"
+			"type" : "PATH",
+			"value" : "D:/Dokumenti/Necto-Studio/Projects/FT800 Demo/.meproject/setup/Debug/lib/cmake/MikroSDK.Hal.SPI.Master"
 		},
 		{
 			"name" : "MikroSDK.Hal.UART_DIR",
@@ -1935,11 +1939,11 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : ""
+					"value" : "The directory containing a CMake configuration file for MikroSDK.Hal.UART."
 				}
 			],
-			"type" : "STRING",
-			"value" : "C:/Users/klasn/FT800_Demo/.meproject/setup/Debug/lib/cmake/MikroSDK.Hal.UART"
+			"type" : "PATH",
+			"value" : "D:/Dokumenti/Necto-Studio/Projects/FT800 Demo/.meproject/setup/Debug/lib/cmake/MikroSDK.Hal.UART"
 		},
 		{
 			"name" : "MikroSDK.HalInterface_DIR",
@@ -1947,11 +1951,11 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : ""
+					"value" : "The directory containing a CMake configuration file for MikroSDK.HalInterface."
 				}
 			],
-			"type" : "STRING",
-			"value" : "C:/Users/klasn/FT800_Demo/.meproject/setup/Debug/lib/cmake/MikroSDK.HalInterface"
+			"type" : "PATH",
+			"value" : "D:/Dokumenti/Necto-Studio/Projects/FT800 Demo/.meproject/setup/Debug/lib/cmake/MikroSDK.HalInterface"
 		},
 		{
 			"name" : "MikroSDK.HalLowLevel.ADC_DIR",
@@ -1959,11 +1963,11 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : ""
+					"value" : "The directory containing a CMake configuration file for MikroSDK.HalLowLevel.ADC."
 				}
 			],
-			"type" : "STRING",
-			"value" : "C:/Users/klasn/FT800_Demo/.meproject/setup/Debug/lib/cmake/MikroSDK.HalLowLevel.ADC"
+			"type" : "PATH",
+			"value" : "D:/Dokumenti/Necto-Studio/Projects/FT800 Demo/.meproject/setup/Debug/lib/cmake/MikroSDK.HalLowLevel.ADC"
 		},
 		{
 			"name" : "MikroSDK.HalLowLevel.CAN_DIR",
@@ -1971,11 +1975,11 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : ""
+					"value" : "The directory containing a CMake configuration file for MikroSDK.HalLowLevel.CAN."
 				}
 			],
-			"type" : "STRING",
-			"value" : "C:/Users/klasn/FT800_Demo/.meproject/setup/Debug/lib/cmake/MikroSDK.HalLowLevel.CAN"
+			"type" : "PATH",
+			"value" : "D:/Dokumenti/Necto-Studio/Projects/FT800 Demo/.meproject/setup/Debug/lib/cmake/MikroSDK.HalLowLevel.CAN"
 		},
 		{
 			"name" : "MikroSDK.HalLowLevel.DMA_DIR",
@@ -1983,11 +1987,11 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : ""
+					"value" : "The directory containing a CMake configuration file for MikroSDK.HalLowLevel.DMA."
 				}
 			],
-			"type" : "STRING",
-			"value" : "C:/Users/klasn/FT800_Demo/.meproject/setup/Debug/lib/cmake/MikroSDK.HalLowLevel.DMA"
+			"type" : "PATH",
+			"value" : "D:/Dokumenti/Necto-Studio/Projects/FT800 Demo/.meproject/setup/Debug/lib/cmake/MikroSDK.HalLowLevel.DMA"
 		},
 		{
 			"name" : "MikroSDK.HalLowLevel.GPIO_DIR",
@@ -1995,11 +1999,11 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : ""
+					"value" : "The directory containing a CMake configuration file for MikroSDK.HalLowLevel.GPIO."
 				}
 			],
-			"type" : "STRING",
-			"value" : "C:/Users/klasn/FT800_Demo/.meproject/setup/Debug/lib/cmake/MikroSDK.HalLowLevel.GPIO"
+			"type" : "PATH",
+			"value" : "D:/Dokumenti/Necto-Studio/Projects/FT800 Demo/.meproject/setup/Debug/lib/cmake/MikroSDK.HalLowLevel.GPIO"
 		},
 		{
 			"name" : "MikroSDK.HalLowLevel.I2C.Master_DIR",
@@ -2007,11 +2011,11 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : ""
+					"value" : "The directory containing a CMake configuration file for MikroSDK.HalLowLevel.I2C.Master."
 				}
 			],
-			"type" : "STRING",
-			"value" : "C:/Users/klasn/FT800_Demo/.meproject/setup/Debug/lib/cmake/MikroSDK.HalLowLevel.I2C.Master"
+			"type" : "PATH",
+			"value" : "D:/Dokumenti/Necto-Studio/Projects/FT800 Demo/.meproject/setup/Debug/lib/cmake/MikroSDK.HalLowLevel.I2C.Master"
 		},
 		{
 			"name" : "MikroSDK.HalLowLevel.OneWire_DIR",
@@ -2019,11 +2023,11 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : ""
+					"value" : "The directory containing a CMake configuration file for MikroSDK.HalLowLevel.OneWire."
 				}
 			],
-			"type" : "STRING",
-			"value" : "C:/Users/klasn/FT800_Demo/.meproject/setup/Debug/lib/cmake/MikroSDK.HalLowLevel.OneWire"
+			"type" : "PATH",
+			"value" : "D:/Dokumenti/Necto-Studio/Projects/FT800 Demo/.meproject/setup/Debug/lib/cmake/MikroSDK.HalLowLevel.OneWire"
 		},
 		{
 			"name" : "MikroSDK.HalLowLevel.RTC_DIR",
@@ -2031,11 +2035,11 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : ""
+					"value" : "The directory containing a CMake configuration file for MikroSDK.HalLowLevel.RTC."
 				}
 			],
-			"type" : "STRING",
-			"value" : "C:/Users/klasn/FT800_Demo/.meproject/setup/Debug/lib/cmake/MikroSDK.HalLowLevel.RTC"
+			"type" : "PATH",
+			"value" : "D:/Dokumenti/Necto-Studio/Projects/FT800 Demo/.meproject/setup/Debug/lib/cmake/MikroSDK.HalLowLevel.RTC"
 		},
 		{
 			"name" : "MikroSDK.HalLowLevel.SPI.Master_DIR",
@@ -2043,11 +2047,11 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : ""
+					"value" : "The directory containing a CMake configuration file for MikroSDK.HalLowLevel.SPI.Master."
 				}
 			],
-			"type" : "STRING",
-			"value" : "C:/Users/klasn/FT800_Demo/.meproject/setup/Debug/lib/cmake/MikroSDK.HalLowLevel.SPI.Master"
+			"type" : "PATH",
+			"value" : "D:/Dokumenti/Necto-Studio/Projects/FT800 Demo/.meproject/setup/Debug/lib/cmake/MikroSDK.HalLowLevel.SPI.Master"
 		},
 		{
 			"name" : "MikroSDK.HalLowLevel.TIM_DIR",
@@ -2055,11 +2059,11 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : ""
+					"value" : "The directory containing a CMake configuration file for MikroSDK.HalLowLevel.TIM."
 				}
 			],
-			"type" : "STRING",
-			"value" : "C:/Users/klasn/FT800_Demo/.meproject/setup/Debug/lib/cmake/MikroSDK.HalLowLevel.TIM"
+			"type" : "PATH",
+			"value" : "D:/Dokumenti/Necto-Studio/Projects/FT800 Demo/.meproject/setup/Debug/lib/cmake/MikroSDK.HalLowLevel.TIM"
 		},
 		{
 			"name" : "MikroSDK.HalLowLevel.UART_DIR",
@@ -2067,11 +2071,11 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : ""
+					"value" : "The directory containing a CMake configuration file for MikroSDK.HalLowLevel.UART."
 				}
 			],
-			"type" : "STRING",
-			"value" : "C:/Users/klasn/FT800_Demo/.meproject/setup/Debug/lib/cmake/MikroSDK.HalLowLevel.UART"
+			"type" : "PATH",
+			"value" : "D:/Dokumenti/Necto-Studio/Projects/FT800 Demo/.meproject/setup/Debug/lib/cmake/MikroSDK.HalLowLevel.UART"
 		},
 		{
 			"name" : "MikroSDK.HalLowLevelCommon_DIR",
@@ -2079,11 +2083,11 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : ""
+					"value" : "The directory containing a CMake configuration file for MikroSDK.HalLowLevelCommon."
 				}
 			],
-			"type" : "STRING",
-			"value" : "C:/Users/klasn/FT800_Demo/.meproject/setup/Debug/lib/cmake/MikroSDK.HalLowLevelCommon"
+			"type" : "PATH",
+			"value" : "D:/Dokumenti/Necto-Studio/Projects/FT800 Demo/.meproject/setup/Debug/lib/cmake/MikroSDK.HalLowLevelCommon"
 		},
 		{
 			"name" : "MikroSDK.HalLowLevelCore_DIR",
@@ -2091,11 +2095,11 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : ""
+					"value" : "The directory containing a CMake configuration file for MikroSDK.HalLowLevelCore."
 				}
 			],
-			"type" : "STRING",
-			"value" : "C:/Users/klasn/FT800_Demo/.meproject/setup/Debug/lib/cmake/MikroSDK.HalLowLevelCore"
+			"type" : "PATH",
+			"value" : "D:/Dokumenti/Necto-Studio/Projects/FT800 Demo/.meproject/setup/Debug/lib/cmake/MikroSDK.HalLowLevelCore"
 		},
 		{
 			"name" : "MikroSDK.MikroBus_DIR",
@@ -2103,11 +2107,11 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : ""
+					"value" : "The directory containing a CMake configuration file for MikroSDK.MikroBus."
 				}
 			],
-			"type" : "STRING",
-			"value" : "C:/Users/klasn/FT800_Demo/.meproject/setup/Debug/lib/cmake/MikroSDK.MikroBus"
+			"type" : "PATH",
+			"value" : "D:/Dokumenti/Necto-Studio/Projects/FT800 Demo/.meproject/setup/Debug/lib/cmake/MikroSDK.MikroBus"
 		},
 		{
 			"name" : "MikroSDK.RingBuffer_DIR",
@@ -2115,11 +2119,11 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : ""
+					"value" : "The directory containing a CMake configuration file for MikroSDK.RingBuffer."
 				}
 			],
-			"type" : "STRING",
-			"value" : "C:/Users/klasn/FT800_Demo/.meproject/setup/Debug/lib/cmake/MikroSDK.RingBuffer"
+			"type" : "PATH",
+			"value" : "D:/Dokumenti/Necto-Studio/Projects/FT800 Demo/.meproject/setup/Debug/lib/cmake/MikroSDK.RingBuffer"
 		},
 		{
 			"name" : "MikroSDK.TouchPanel_DIR",
@@ -2127,11 +2131,11 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : ""
+					"value" : "The directory containing a CMake configuration file for MikroSDK.TouchPanel."
 				}
 			],
-			"type" : "STRING",
-			"value" : "C:/Users/klasn/FT800_Demo/.meproject/setup/Debug/lib/cmake/MikroSDK.TouchPanel"
+			"type" : "PATH",
+			"value" : "D:/Dokumenti/Necto-Studio/Projects/FT800 Demo/.meproject/setup/Debug/lib/cmake/MikroSDK.TouchPanel"
 		},
 		{
 			"name" : "NECTO_APPLICATION_DIR",
@@ -2139,10 +2143,10 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : ""
+					"value" : "No help, variable specified on the command line."
 				}
 			],
-			"type" : "STRING",
+			"type" : "UNINITIALIZED",
 			"value" : "C:/MikroElektronika/MikroElektronika/NECTOStudio/bin"
 		},
 		{
@@ -2151,10 +2155,10 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : ""
+					"value" : "No help, variable specified on the command line."
 				}
 			],
-			"type" : "STRING",
+			"type" : "UNINITIALIZED",
 			"value" : "C:/MikroElektronika/MikroElektronika/NECTOStudio/bin/vtft_generator.exe"
 		},
 		{
@@ -2163,10 +2167,10 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : ""
+					"value" : "No help, variable specified on the command line."
 				}
 			],
-			"type" : "STRING",
+			"type" : "UNINITIALIZED",
 			"value" : "9.4.0"
 		},
 		{
@@ -2187,10 +2191,10 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : ""
+					"value" : "No help, variable specified on the command line."
 				}
 			],
-			"type" : "STRING",
+			"type" : "UNINITIALIZED",
 			"value" : "C:/Users/klasn/AppData/Local/MIKROE/NECTOStudio7/packages/preinit"
 		},
 		{
@@ -2211,10 +2215,10 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : ""
+					"value" : "No help, variable specified on the command line."
 				}
 			],
-			"type" : "STRING",
+			"type" : "UNINITIALIZED",
 			"value" : "C:/Users/klasn/AppData/Local/MIKROE/NECTOStudio7/packages/unit_test_lib"
 		},
 		{
@@ -2235,10 +2239,10 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : ""
+					"value" : "No help, variable specified on the command line."
 				}
 			],
-			"type" : "STRING",
+			"type" : "UNINITIALIZED",
 			"value" : "GNU"
 		},
 		{
@@ -2251,7 +2255,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/klasn/FT800_Demo/install"
+			"value" : "D:/Dokumenti/Necto-Studio/Projects/FT800 Demo/install"
 		},
 		{
 			"name" : "_HAS_MIKROBUS_",
@@ -2259,10 +2263,10 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : ""
+					"value" : "No help, variable specified on the command line."
 				}
 			],
-			"type" : "STRING",
+			"type" : "UNINITIALIZED",
 			"value" : "TRUE"
 		},
 		{

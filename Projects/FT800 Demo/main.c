@@ -13,8 +13,6 @@
 #include "MikroSDK.Board"
 #include "MikroSDK.Driver"
 
-
-
 int main(void)
 {
     /* Do not remove this line — it ensures correct MCU initialization. */
@@ -34,7 +32,6 @@ int main(void)
     stopwatch_t stopwatch;
     settings_t settings;
 
-
     display_initialization();
     set_init_values(&g_colors, &position, &slider, &flag, &operators, &stopwatch, &settings );
 
@@ -42,17 +39,12 @@ int main(void)
     {
         ft800_start_display_list( &ctx );
 
-    //ft800_cmd( &ctx, FT800_COLOR_A( g_colors.alpha ) );  
+        //ft800_cmd( &ctx, FT800_COLOR_A( g_colors.alpha ) );  
         gradient_background( &g_colors, slider.val ) ;
-        
-
         main_menu_slider(&slider);
-        
         calculate_icon_position( &position, &slider );
         submenu_select( &flag, &operators, &g_colors );
     
-
-        
         ft800_end_display_list( &ctx ); 
     }
 

@@ -3,7 +3,7 @@ set(CMAKE_HOST_SYSTEM_NAME "Windows")
 set(CMAKE_HOST_SYSTEM_VERSION "10.0.26300")
 set(CMAKE_HOST_SYSTEM_PROCESSOR "AMD64")
 
-include("C:/Users/klasn/FT800_Demo/build-UNI DS v8/toolchain.cmake")
+include("D:/Dokumenti/Necto-Studio/Projects/FT800 Demo/build-UNI DS v8/toolchain.cmake")
 
 set(CMAKE_SYSTEM "Generic-1")
 set(CMAKE_SYSTEM_NAME "Generic")

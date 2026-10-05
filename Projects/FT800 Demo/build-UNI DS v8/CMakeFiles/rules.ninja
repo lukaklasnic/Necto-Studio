@@ -35,8 +35,10 @@ rule C_COMPILER__FT800_Demo_unscanned_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__FT800_Demo_Debug
-  command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\Users\klasn\AppData\Local\MIKROE\NECTOStudio7\packages\compilers\gcc\arm\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\Users\klasn\AppData\Local\MIKROE\NECTOStudio7\packages\compilers\gcc\arm\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $FLAGS $LINK_FLAGS @$RSP_FILE -o $TARGET_FILE && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
+  rspfile = $RSP_FILE
+  rspfile_content = $in $LINK_PATH $LINK_LIBRARIES
   restat = $RESTAT
 
 
@@ -52,7 +54,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = C:\Users\klasn\AppData\Local\MIKROE\NECTOStudio7\packages\CMake\bin\cmake.exe --regenerate-during-build -SC:\Users\klasn\FT800_Demo -B"C:\Users\klasn\FT800_Demo\build-UNI DS v8"
+  command = C:\Users\klasn\AppData\Local\MIKROE\NECTOStudio7\packages\CMake\bin\cmake.exe --regenerate-during-build -S"D:\Dokumenti\Necto-Studio\Projects\FT800 Demo" -B"D:\Dokumenti\Necto-Studio\Projects\FT800 Demo\build-UNI DS v8"
   description = Re-running CMake...
   generator = 1
 
