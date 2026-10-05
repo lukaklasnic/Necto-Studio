@@ -33,8 +33,6 @@ typedef struct {
 #define TIM_DIER_UIE        (1UL << 0)
 #define TIM_SR_UIF          (1UL << 0)
 
-// --- DEFINICIJE ZA NVIC (Prekide) ---
-
 #define SCS_BASE            0xE000E000UL
 #define NVIC_BASE           (SCS_BASE + 0x0100UL)
 
